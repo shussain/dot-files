@@ -19,4 +19,4 @@ alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
 
-source /home/habibilus/.bashrc_local
+source /home/habibilus/.rc_local
