@@ -54,5 +54,5 @@ GIT_AUTHOR_NAME="Samir Hussain" export GIT_AUTHOR_NAME
 GIT_AUTHOR_EMAIL="shussain@credil.org" export GIT_AUTHOR_EMAIL
 
 # For ldns-1.6.12
-LD_LIBRARY_PATH=/home/habibilus/ldns-1.6.12/.libs/ export LD_LIBRARY_PATH
+LD_LIBRARY_PATH=$HOME/ldns-1.6.12/.libs/ export LD_LIBRARY_PATH
 export PYTHONPATH=$HOME/ldns-1.6.12/contrib/ldnsx
