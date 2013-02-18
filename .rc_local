@@ -48,6 +48,8 @@ alias randword='wc -l /etc/dictionaries-common/words |cut -c1-5 |xargs -I numb r
 alias pom='/home/habibilus/code/python_code/pomodoro/pomodoro-notify.py &'
 alias pom_b='/home/habibilus/code/python_code/pomodoro/pomodoro-notify.py -b &'
 
+alias dualdisplay='source /home/habibilus/.screenlayout/dualdisplay.sh'
+
 GIT_COMMITTER_NAME="Samir Hussain" export GIT_COMMITTER_NAME
 GIT_COMMITTER_EMAIL="shussain@credil.org" export GIT_COMMITTER_EMAIL
 GIT_AUTHOR_NAME="Samir Hussain" export GIT_AUTHOR_NAME
