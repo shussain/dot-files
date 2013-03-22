@@ -19,4 +19,4 @@ alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
 
-source /home/shusasin/.rc_local
+source ~/.rc_local
