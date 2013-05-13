@@ -22,7 +22,7 @@
       <property name="&lt;Alt&gt;F1" type="string" value="xfce4-popup-applicationsmenu"/>
       <property name="&lt;Super&gt;t" type="string" value="xfterm4"/>
       <property name="XF86Tools" type="string" value="/usr/bin/rhythmbox"/>
-      <property name="&lt;Primary&gt;F12" type="string" value="/bin/sh /home/habibilus/.screenlayout/single.sh"/>
+      <property name="&lt;Primary&gt;F12" type="string" value="/bin/sh ~/.screenlayout/single.sh"/>
       <property name="&lt;Super&gt;f" type="string" value="/usr/bin/firefox"/>
     </property>
   </property>
