@@ -2,8 +2,8 @@
 # Source global definitions (if any)
 #-------------------------------------------------------------
 #
-#if [ -f /home/habibilus/.bashrc_local ]; then
-        #source /home/habibilus/.bashrc_local   # --> Read bashrc_local, if present.
+#if [ -f $HOME/.bashrc_local ]; then
+        #source $HOME/.bashrc_local   # --> Read bashrc_local, if present.
 #fi
 
 
@@ -36,6 +36,7 @@ alias battery='acpi -b'
 alias phonelist='cat ~/credil/operations/phonelist'
 
 alias explorer='nautilus .'
+alias gitk='gitk --all &'
 
 function boot() {
     BOOTTIME=`who -b |cut -c34-49`
@@ -48,12 +49,17 @@ alias randword='wc -l /etc/dictionaries-common/words |cut -c1-5 |xargs -I numb r
 alias pom='$HOME/code/python_code/pomodoro/pomodoro-notify.py &'
 alias pom_b='$HOME/code/python_code/pomodoro/pomodoro-notify.py -b &'
 
-alias dualdisplay='source $HOME/.screenlayout/dualdisplay.sh'
+alias dualdisplay='source $HOME/.screenlayout/dualdisplay.sh && source $HOME/.startconky'
+alias homedisplay='source $HOME/.screenlayout/home_bigdisplay.sh && source $HOME/.startconky'
 
 GIT_COMMITTER_NAME="Samir Hussain" export GIT_COMMITTER_NAME
 GIT_COMMITTER_EMAIL="shussain@credil.org" export GIT_COMMITTER_EMAIL
 GIT_AUTHOR_NAME="Samir Hussain" export GIT_AUTHOR_NAME
 GIT_AUTHOR_EMAIL="shussain@credil.org" export GIT_AUTHOR_EMAIL
+
+alias reddit='firefox www.reddit.com/r/vim www.reddit.com/r/linux www.reddit.com/r/ufc www.reddit.com/r/cricket'
+
+export PATH=${PATH}:$HOME/android-sdk-linux/tools
 
 # For ldns-1.6.12
 LD_LIBRARY_PATH=$HOME/ldns-1.6.12/.libs/ export LD_LIBRARY_PATH
