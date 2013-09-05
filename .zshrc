@@ -14,9 +14,51 @@ if [ -x /usr/bin/dircolors ]; then
     alias egrep='egrep --color=auto'
 fi
 
+# The following are changes that I want on all the systems I use.
+
 # some more ls aliases
 alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
+
+alias ruby='ruby1.9.1'
+alias rake='rake1.9.1'
+alias irb='irb1.9.1'
+
+alias upgrade='sudo apt-get update && sudo apt-get upgrade'
+alias shutdown='sudo shutdown -h now'
+#alias xterm='xterm -font -*-fixed-medium-*-normal-*-14-130-*-*-*-*-*-* -geometry 110x35'
+
+alias cal='ncal -bJM -A 1 -B 1'
+alias battery='acpi -b'
+alias phonelist='cat ~/credil/operations/phonelist'
+alias explorer='nautilus .'
+
+alias cdcode='cd $HOME/project'
+alias gitk='gitk --all &'
+alias webtest='firefox &'
+
+# Generate random words... handy for generating passwords. Lately, been using pwgen instead
+# I realize I use cut way, way too much. I should really refactor my functions
+# to use awk and be neater.
+alias randword='wc -l /etc/dictionaries-common/words |cut -c1-5 |xargs -I numb rand -M numb |xargs -I randomnumb sed -n randomnumbp /etc/dictionaries-common/words'
+
+alias pom='$HOME/code/python_code/pomodoro/pomodoro-notify.py &'
+alias pom_b='$HOME/code/python_code/pomodoro/pomodoro-notify.py -b &'
+
+alias dualdisplay='source $HOME/.screenlayout/dualdisplay.sh && source $HOME/.startconky'
+alias homedisplay='source $HOME/.screenlayout/home_bigdisplay.sh && source $HOME/.startconky'
+
+alias reddit='firefox www.reddit.com/r/vim www.reddit.com/r/linux www.reddit.com/r/ufc www.reddit.com/r/cricket'
+
+function boot() {
+    BOOTTIME=`who -b |cut -c34-49`
+    echo Boot time: $BOOTTIME
+}
+
+GIT_COMMITTER_NAME="Samir Hussain" export GIT_COMMITTER_NAME
+GIT_COMMITTER_EMAIL="shussain@credil.org" export GIT_COMMITTER_EMAIL
+GIT_AUTHOR_NAME="Samir Hussain" export GIT_AUTHOR_NAME
+GIT_AUTHOR_EMAIL="shussain@credil.org" export GIT_AUTHOR_EMAIL
 
 source ~/.rc_local
