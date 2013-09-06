@@ -42,6 +42,7 @@ alias webtest='firefox &'
 # I realize I use cut way, way too much. I should really refactor my functions
 # to use awk and be neater.
 alias randword='wc -l /etc/dictionaries-common/words |cut -c1-5 |xargs -I numb rand -M numb |xargs -I randomnumb sed -n randomnumbp /etc/dictionaries-common/words'
+alias getip='lynx --dump http://checkip.dyndns.org | cut -c24-35'
 
 alias pom='$HOME/code/python_code/pomodoro/pomodoro-notify.py &'
 alias pom_b='$HOME/code/python_code/pomodoro/pomodoro-notify.py -b &'
@@ -49,7 +50,7 @@ alias pom_b='$HOME/code/python_code/pomodoro/pomodoro-notify.py -b &'
 alias dualdisplay='source $HOME/.screenlayout/dualdisplay.sh && source $HOME/.startconky'
 alias homedisplay='source $HOME/.screenlayout/home_bigdisplay.sh && source $HOME/.startconky'
 
-alias reddit='firefox www.reddit.com/r/vim www.reddit.com/r/linux www.reddit.com/r/ufc www.reddit.com/r/cricket'
+alias reddit='firefox www.reddit.com/r/vim www.reddit.com/r/linux www.reddit.com/r/mma www.reddit.com/r/cricket www.reddit.com/r/ottawa www.reddit.com/r/canada'
 
 function boot() {
     BOOTTIME=`who -b |cut -c34-49`
