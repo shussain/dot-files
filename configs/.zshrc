@@ -2,6 +2,18 @@
 setopt PROMPT_SUBST
 mypath=
 PROMPT='%{$(pwd|grep --color=always /)%${#PWD}G%} %(!.%F{red}.%F{cyan})%n%f@%F{yellow}%m%f%(!.%F{red}.)%#%f '
+
+HISTSIZE=999
+HISTFILE=~/.zsh_history
+SAVEHIST=999
+
+setopt HIST_IGNORE_DUPS
+
+# Share history among terminals
+setopt APPEND_HISTORY
+setopt INC_APPEND_HISTORY
+setopt SHARE_HISTORY
+
 # enable color support of ls and also add handy aliases
 if [ -x /usr/bin/dircolors ]; then
     test -r ~/.dircolors && eval "$(dircolors -b ~/.dircolors)" || eval "$(dircolors -b)"
