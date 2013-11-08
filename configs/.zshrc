@@ -55,6 +55,7 @@ alias webtest='firefox &'
 # to use awk and be neater.
 alias randword='wc -l /etc/dictionaries-common/words |cut -c1-5 |xargs -I numb rand -M numb |xargs -I randomnumb sed -n randomnumbp /etc/dictionaries-common/words'
 alias getip='lynx --dump http://checkip.dyndns.org | cut -c24-35'
+alias youtube-dl='bin/youtube-dl -t'
 
 alias pom='$HOME/code/python_code/pomodoro/pomodoro-notify.py &'
 alias pom_b='$HOME/code/python_code/pomodoro/pomodoro-notify.py -b &'
