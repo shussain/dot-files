@@ -73,6 +73,10 @@ function boot() {
     echo Boot time: $BOOTTIME
 }
 
+function json_validate {
+    python -c "import json; fd=open('$1'); answer = json.dumps(json.load(fd), indent=4); print(answer)"
+}
+
 GIT_COMMITTER_NAME="Samir Hussain" export GIT_COMMITTER_NAME
 GIT_COMMITTER_EMAIL="shussain@credil.org" export GIT_COMMITTER_EMAIL
 GIT_AUTHOR_NAME="Samir Hussain" export GIT_AUTHOR_NAME
