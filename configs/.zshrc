@@ -57,6 +57,7 @@ alias randword='wc -l /etc/dictionaries-common/words |cut -c1-5 |xargs -I numb r
 alias getip='lynx --dump http://checkip.dyndns.org | cut -c24-35'
 alias youtube-dl='~/bin/youtube-dl -t'
 alias currency='source ~/bin/currency.sh'
+alias timezone='python ~/bin/timezone.py'
 
 alias pom='$HOME/code/python_code/pomodoro/pomodoro-notify.py &'
 alias pom_b='$HOME/code/python_code/pomodoro/pomodoro-notify.py -b &'

@@ -20,6 +20,10 @@ setopt KSH_GLOB
 setopt LIST_TYPES
 setopt MAIL_WARNING
 setopt MARK_DIRS
-EDITOR=vim
+
+# Enable vim binding in zsh
+bindkey -v
+export KEYTIMEOUT=1
+
 #PROMPT='%B[%n@%m %C]%b %h %# '
 #RPROMPT='%D{%a %b %d} %B%D{%T}%b %D{%Z}'
