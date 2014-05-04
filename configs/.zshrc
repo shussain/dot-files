@@ -63,6 +63,7 @@ alias pom='$HOME/code/python_code/pomodoro/pomodoro-notify.py &'
 alias pom_b='$HOME/code/python_code/pomodoro/pomodoro-notify.py -b &'
 
 alias dualdisplay='source $HOME/.screenlayout/dualdisplay.sh && source $HOME/.startconky'
+alias singledisplay='source $HOME/.screenlayout/singledisplay.sh && source $HOME/.startconky'
 alias homedisplay='source $HOME/.screenlayout/home_bigdisplay.sh && source $HOME/.startconky'
 
 alias mount_nexus4='sudo mtpfs -o allow_other /media/nexus4'
