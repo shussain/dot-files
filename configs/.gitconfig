@@ -1,0 +1,42 @@
+[user]
+	name = Samir Hussain Yusuf
+	email = shussain@credil.org
+
+[github]
+	user = shussain
+
+[branch "master"]
+	remote = origin
+	merge = refs/heads/master
+
+[alias]
+	l = "!source ~/.githelpers && prett_git_log"
+	ci = commit -v
+
+[color]
+	ui = auto
+	diff = auto
+	status = auto
+	branch = auto
+
+[color "branch"]
+	current = yellow reverse
+	remote = green bold
+	local = blue bold
+
+[color "diff"]
+	meta = blue
+	frag = magenta
+	old = red
+	new = green
+
+[push]
+	default = current
+
+[pull]
+	default = current
+
+[core]
+	editor = vim
+	excludesfile = ~/.gitignore
+	mergeoptions = --no-edit
