@@ -1,35 +1,41 @@
-# Path to your oh-my-zsh installation.
-export ZSH=$HOME/.oh-my-zsh
+# Created by newuser for 4.3.11
+setopt PROMPT_SUBST
+mypath=
+PROMPT='%{$(pwd|grep --color=always /)%${#PWD}G%} %(!.%F{red}.%F{cyan})%n%f@%F{yellow}%m%f%(!.%F{red}.)%#%f '
 
-# Set name of the theme to load.
-# Look in ~/.oh-my-zsh/themes/
-# Optionally, if you set this to "random", it'll load a random theme each
-# time that oh-my-zsh is loaded.
-ZSH_THEME="shussain"
+HISTSIZE=999
+HISTFILE=~/.zsh_history
+SAVEHIST=999
 
-# Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
-# Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
-# Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git)
+setopt HIST_IGNORE_DUPS
 
-source $ZSH/oh-my-zsh.sh
+# Share history among terminals
+setopt APPEND_HISTORY
+setopt INC_APPEND_HISTORY
+setopt SHARE_HISTORY
 
-# User configuration
+# enable color support of ls and also add handy aliases
+if [ -x /usr/bin/dircolors ]; then
+    test -r ~/.dircolors && eval "$(dircolors -b ~/.dircolors)" || eval "$(dircolors -b)"
+    alias ls='ls --color=auto'
+    #alias dir='dir --color=auto'
+    #alias vdir='vdir --color=auto'
 
-export PATH=$HOME/bin:/usr/local/bin:$PATH
+    alias grep='grep --color=auto'
+    alias fgrep='fgrep --color=auto'
+    alias egrep='egrep --color=auto'
+fi
 
-# You may need to manually set your language environment
-# export LANG=en_US.UTF-8
+# The following are changes that I want on all the systems I use.
 
-# Preferred editor for local and remote sessions
-# if [[ -n $SSH_CONNECTION ]]; then
-#   export EDITOR='vim'
-# else
-#   export EDITOR='mvim'
-# fi
+# some more ls aliases
+alias ll='ls -alF'
+alias la='ls -A'
+alias l='ls -CF'
 
-# ssh
-# export SSH_KEY_PATH="~/.ssh/dsa_id"
+alias ruby='ruby1.9.1'
+alias rake='rake1.9.1'
+alias irb='irb1.9.1'
 
 alias upgrade='sudo apt-get update && sudo apt-get upgrade'
 alias shutdown='sudo shutdown -h now'
