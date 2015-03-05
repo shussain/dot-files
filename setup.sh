@@ -7,7 +7,9 @@ echo "----- Getting latest version -----"
 git pull
 
 echo "----- Install dependencies -----"
+sudo apt-get install zsh
 sudo apt-get install exuberant-ctags stow
+sudo apt-get install tmux
 
 echo "----- Update vimrc submodules -----"
 git submodule init; git submodule sync; git submodule update
