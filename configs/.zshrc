@@ -59,6 +59,7 @@ alias singledisplay='source $HOME/.screenlayout/singledisplay.sh && source $HOME
 alias homedisplay='source $HOME/.screenlayout/home_bigdisplay.sh && source $HOME/.startconky'
 
 alias mount_nexus4='sudo mtpfs -o allow_other /media/nexus4'
+alias mount_nexus7='sudo mtpfs -o allow_other /media/nexus7'
 
 alias reddit='firefox www.reddit.com/r/vim www.reddit.com/r/linux www.reddit.com/r/mma www.reddit.com/r/cricket www.reddit.com/r/ottawa www.reddit.com/r/canada www.reddit.com/r/canadapolitics'
 
