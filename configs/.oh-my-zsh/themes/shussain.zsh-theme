@@ -7,3 +7,6 @@ ZSH_THEME_GIT_PROMPT_CLEAN="%{$fg[blue]%})"
 
 setopt CORRECT
 setopt CORRECT_ALL
+
+# Enabling history search
+bindkey -e
