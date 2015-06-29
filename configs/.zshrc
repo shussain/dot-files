@@ -39,7 +39,7 @@ alias cal='ncal -bJM -A 1 -B 1'
 alias battery='acpi -b'
 alias phonelist='cat ~/credil/operations/phonelist'
 alias explorer='nautilus .'
-alias finances='scp ~/Desktop/finances.txt dadar:/home/shussain/Desktop; ssh code.credil.org "killall nc"'
+alias finances='scp ~/Desktop/finances.txt dadar:/home/shussain/Desktop; ssh code "killall nc"'
 
 alias cdcode='cd $HOME/project'
 alias gitk='gitk --all &'
