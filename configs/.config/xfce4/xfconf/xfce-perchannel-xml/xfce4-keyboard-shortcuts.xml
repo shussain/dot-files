@@ -33,8 +33,8 @@
       <property name="&lt;Primary&gt;F12" type="string" value="/bin/sh ~/.screenlayout/single.sh"/>
       <property name="&lt;Super&gt;f" type="string" value="/usr/bin/firefox"/>
       <property name="&lt;Super&gt;Return" type="string" value="/usr/bin/lxterminal"/>
-      <property name="&lt;Primary&gt;Right" type="string" value="move-to-next-monitor"/>
-      <property name="&lt;Primary&gt;Left" type="string" value="move-to-next-monitor"/>
+      <property name="&lt;Super&gt;Right" type="string" value="move-to-next-monitor"/>
+      <property name="&lt;Super&gt;Left" type="string" value="move-to-next-monitor"/>
     </property>
   </property>
   <property name="xfwm4" type="empty">
