@@ -75,4 +75,8 @@ function json_validate {
     python -c "import json; fd=open('$1'); answer = json.dumps(json.load(fd), indent=4); print(answer)"
 }
 
+grepc() {
+    grep -rin --color=auto --exclude-dir={.bzr,.cvs,.git,.hg,.svn} --include=\*.{c,h} $1 .
+}
+
 source ~/.rc_local
