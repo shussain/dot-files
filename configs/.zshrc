@@ -75,6 +75,11 @@ function json_validate {
     python -c "import json; fd=open('$1'); answer = json.dumps(json.load(fd), indent=4); print(answer)"
 }
 
+reminder() {
+  echo notify-send -t 0 \'$2\' | at $1
+  echo "Reminder: $2 set for $1"
+}
+
 grepc() {
     grep -rin --color=auto --exclude-dir={.bzr,.cvs,.git,.hg,.svn} --include=\*.{c,h} $1 .
 }
