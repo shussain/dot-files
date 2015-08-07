@@ -49,7 +49,7 @@ alias webtest='firefox &'
 # I realize I use cut way, way too much. I should really refactor my functions
 # to use awk and be neater.
 alias randword='wc -l /etc/dictionaries-common/words |cut -c1-5 |xargs -I numb rand -M numb |xargs -I randomnumb sed -n randomnumbp /etc/dictionaries-common/words'
-alias getip='lynx --dump http://checkip.dyndns.org | cut -c24-38'
+alias getip='lynx --dump http://checkip.dyndns.org | cut -d: -f 2'
 
 alias youtube-dl='~/bin/youtube-dl -t'
 alias reddit='firefox www.reddit.com/r/vim www.reddit.com/r/linux www.reddit.com/r/mma www.reddit.com/r/cricket www.reddit.com/r/ottawa www.reddit.com/r/canada www.reddit.com/r/canadapolitics'
