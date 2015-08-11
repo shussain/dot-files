@@ -38,6 +38,9 @@ bindsym $mod+f exec firefox
 # start firefox
 bindsym $mod+g exec gvim
 
+# call xlock
+bindsym $mod+l exec i3lock
+
 # kill focused window
 bindsym $mod+Shift+q kill
 bindsym $mod+q kill
@@ -50,12 +53,6 @@ bindsym Mod1+F2 exec dmenu_run
 # shipping a .desktop file. It is a wrapper around dmenu, so you need that
 # installed.
 # bindsym $mod+d exec --no-startup-id i3-dmenu-desktop
-
-# change focus
-bindsym $mod+j focus left
-bindsym $mod+k focus down
-bindsym $mod+l focus up
-bindsym $mod+semicolon focus right
 
 # alternatively, you can use the cursor keys:
 bindsym $mod+Left focus left
