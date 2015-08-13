@@ -29,6 +29,11 @@ font pango:monospace 10
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
 
+# Start scripts
+exec './.screenlayout/i3display.sh'
+exec volumeicon
+exec ssh-add
+
 # start a terminal
 bindsym $mod+Return exec i3-sensible-terminal
 
