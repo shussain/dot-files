@@ -41,7 +41,7 @@ bindsym $mod+Return exec i3-sensible-terminal
 bindsym $mod+f exec firefox
 
 # start firefox
-bindsym $mod+g exec gvim
+bindsym $mod+v exec gvim
 
 # call xlock
 bindsym $mod+l exec i3lock
@@ -81,7 +81,7 @@ bindsym $mod+Shift+Right move right
 bindsym $mod+h split v
 
 # split in vertical orientation
-bindsym $mod+v split h
+bindsym $mod+g split h
 
 # enter fullscreen mode for the focused container
 bindsym $mod+F11 fullscreen toggle
