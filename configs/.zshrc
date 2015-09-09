@@ -43,6 +43,8 @@ alias finances='scp ~/Desktop/finances.txt dadar:/home/shussain/Desktop; ssh cod
 
 alias cdcode='cd $HOME/project'
 alias gitk='gitk --all &'
+alias hexdump='hexdump -v -e '"'"'"%010_ad  |"'"'"' -e '"'"'"%_p"'"'"' -e '"'"'/16 "|\n"'"'"''
+
 alias webtest='firefox &'
 
 # Generate random words... handy for generating passwords. Lately, been using pwgen instead
