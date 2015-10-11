@@ -35,6 +35,9 @@ alias upgrade='sudo apt-get update && sudo apt-get upgrade'
 alias shutdown='sudo shutdown -h now'
 #alias xterm='xterm -font -*-fixed-medium-*-normal-*-14-130-*-*-*-*-*-* -geometry 110x35'
 
+# Specifying terminal program (for i3)
+export TERMINAL='lxterminal'
+
 alias cal='ncal -bJM -A 1 -B 1'
 alias battery='acpi -b'
 alias phonelist='cat ~/credil/operations/phonelist'
