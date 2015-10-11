@@ -33,6 +33,7 @@ floating_modifier $mod
 exec './.screenlayout/i3display.sh'
 exec volumeicon
 exec ssh-add
+exec_always --no-startup-id "sleep 1; setxkbmap -option caps:super"
 
 # start a terminal
 bindsym $mod+Return exec i3-sensible-terminal
