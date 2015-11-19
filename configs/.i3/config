@@ -32,6 +32,7 @@ floating_modifier $mod
 # Start scripts
 exec './.screenlayout/i3display.sh'
 exec volumeicon
+exec --no-startup-id nm-applet
 exec ssh-add
 exec_always --no-startup-id "sleep 1; setxkbmap -option caps:super"
 
