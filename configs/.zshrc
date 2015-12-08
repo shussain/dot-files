@@ -41,6 +41,7 @@ export TERMINAL='lxterminal'
 alias cal='ncal -bJM -A 1 -B 1'
 alias battery='acpi -b'
 alias phonelist='cat ~/credil/operations/phonelist'
+alias networklist='cat ~/Desktop/network.txt'
 alias explorer='nautilus .'
 alias finances='scp ~/Desktop/finances.txt dadar:/home/shussain/Desktop; ssh code "killall nc"'
 
