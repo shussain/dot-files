@@ -42,7 +42,10 @@ bindsym $mod+Return exec i3-sensible-terminal
 # start firefox
 bindsym $mod+f exec firefox
 
-# start firefox
+# start Chrome in incognitomode (its annoying firefox -private is disabled in Firefox that ships with Ubuntu)
+bindsym $mod+n exec google-chrome -incognito
+
+# start gvim
 bindsym $mod+v exec gvim
 
 # call xlock
