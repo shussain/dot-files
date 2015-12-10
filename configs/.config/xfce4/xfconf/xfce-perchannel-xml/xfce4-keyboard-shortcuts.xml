@@ -35,6 +35,7 @@
       <property name="&lt;Super&gt;Return" type="string" value="/usr/bin/lxterminal"/>
       <property name="&lt;Super&gt;Right" type="string" value="move-to-next-monitor"/>
       <property name="&lt;Super&gt;Left" type="string" value="move-to-next-monitor"/>
+      <property name="&lt;Super&gt;n" type="string" value="google-chrome -incognito"/>
     </property>
   </property>
   <property name="xfwm4" type="empty">
