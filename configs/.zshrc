@@ -40,17 +40,19 @@ export TERMINAL='lxterminal'
 
 alias cal='ncal -bJM -A 1 -B 1'
 alias bc='bc -l'
+alias hexdump='hexdump -v -e '"'"'"%010_ad  |"'"'"' -e '"'"'"%_p"'"'"' -e '"'"'/16 "|\n"'"'"''
 alias battery='acpi -b'
+alias webtest='firefox &'
+alias gitk='gitk --all &'
+
+alias gdc='git diff --cached'
+alias gaiw='git diff -w --no-color | git apply --cached --ignore-whitespace'
+
 alias phonelist='cat ~/credil/operations/phonelist'
 alias networklist='cat ~/Desktop/network.txt'
 alias explorer='nautilus .'
 alias finances='scp ~/Desktop/finances.txt dadar:/home/shussain/Desktop; ssh code "killall nc"'
-
 alias cdcode='cd $HOME/project'
-alias gitk='gitk --all &'
-alias hexdump='hexdump -v -e '"'"'"%010_ad  |"'"'"' -e '"'"'"%_p"'"'"' -e '"'"'/16 "|\n"'"'"''
-
-alias webtest='firefox &'
 
 # Generate random words... handy for generating passwords. Lately, been using pwgen instead
 # I realize I use cut way, way too much. I should really refactor my functions
