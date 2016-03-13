@@ -92,7 +92,7 @@ reminder() {
 }
 
 grepc() {
-    grep -rin --color=auto --exclude-dir={.bzr,.cvs,.git,.hg,.svn} --include=\*.{c,h} $1 .
+    grep -rin --color=auto --exclude-dir={.bzr,.cvs,.git,.hg,.svn} --include=\*.{c,h,y,l} $1 .
 }
 
 source ~/.rc_local
