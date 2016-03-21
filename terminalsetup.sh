@@ -28,4 +28,8 @@ echo "----- Stow configs and vimrc -----"
 stow -R configs
 stow -R vimrc
 
+echo "----- Configuring setup -----"
+touch .rc_local
+mkdir .gnupg && touch .gnupg/gpg-agent.env
+
 echo "----- End -----"
