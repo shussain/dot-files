@@ -29,7 +29,9 @@ stow -R configs
 stow -R vimrc
 
 echo "----- Configuring setup -----"
+cd $HOME
 touch .rc_local
 mkdir .gnupg && touch .gnupg/gpg-agent.env
+cd $CURRENT_FOLDER
 
 echo "----- End -----"
