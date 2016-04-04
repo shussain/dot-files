@@ -1,7 +1,7 @@
 #!/bin/bash
 
 CURRENT_FOLDER=$PWD
-OH_MY_ZSH_DIR='.oh-my-zsh'
+OH_MY_ZSH_DIR='oh-my-zsh'
 
 echo "----- Getting latest version -----"
 git pull
