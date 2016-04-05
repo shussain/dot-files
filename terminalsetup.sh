@@ -34,4 +34,7 @@ touch .rc_local
 mkdir .gnupg && touch .gnupg/gpg-agent.env
 cd $CURRENT_FOLDER
 
+echo "----- Changing shell to zsh -----"
+chsh -s /usr/bin/zsh
+
 echo "----- End -----"
