@@ -64,6 +64,8 @@ alias getlargestitem='du -hsx * | sort -rh | head -10'
 
 alias youtube-dl='~/bin/youtube-dl -t'
 alias reddit='firefox www.reddit.com/r/vim www.reddit.com/r/linux www.reddit.com/r/mma www.reddit.com/r/cricket www.reddit.com/r/ottawa www.reddit.com/r/canada www.reddit.com/r/canadapolitics'
+alias weather='curl http://wttr.in/ottawa'
+alias moon='curl wttr.in/Moon'
 
 alias pom='$HOME/code/python_code/pomodoro/pomodoro-notify.py &'
 alias pom_b='$HOME/code/python_code/pomodoro/pomodoro-notify.py -b &'
