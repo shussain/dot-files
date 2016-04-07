@@ -38,6 +38,9 @@ alias shutdown='sudo shutdown -h now'
 # Specifying terminal program (for i3)
 export TERMINAL='lxterminal'
 
+# Do not attempt to correct vim to .vim   E.g. sudo vim /etc/sudoers
+alias vim='nocorrect vim'
+
 alias cal='ncal -bJM -A 1 -B 1'
 alias bc='bc -l'
 alias hexdump='hexdump -v -e '"'"'"%010_ad  |"'"'"' -e '"'"'"%_p"'"'"' -e '"'"'/16 "|\n"'"'"''
