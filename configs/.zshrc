@@ -41,7 +41,8 @@ export TERMINAL='lxterminal'
 # Do not attempt to correct vim to .vim   E.g. sudo vim /etc/sudoers
 alias vim='nocorrect vim'
 
-alias cal='ncal -bJM -A 1 -B 1'
+#alias cal='ncal -bJM -A 1 -B 1'
+alias cal='ncal -y -w -M'
 alias bc='bc -l'
 alias hexdump='hexdump -v -e '"'"'"%010_ad  |"'"'"' -e '"'"'"%_p"'"'"' -e '"'"'/16 "|\n"'"'"''
 alias battery='acpi -b'
