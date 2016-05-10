@@ -43,9 +43,11 @@ alias vim='nocorrect vim'
 
 #alias cal='ncal -bJM -A 1 -B 1'
 alias cal='ncal -y -w -M'
+alias calw='ncal -w'
 alias bc='bc -l'
 alias hexdump='hexdump -v -e '"'"'"%010_ad  |"'"'"' -e '"'"'"%_p"'"'"' -e '"'"'/16 "|\n"'"'"''
 alias battery='acpi -b'
+alias explorer='nautilus .'
 alias webtest='firefox &'
 alias gitk='gitk --all &'
 
@@ -54,7 +56,6 @@ alias gaiw='git diff -w --no-color | git apply --cached --ignore-whitespace'
 
 alias phonelist='cat ~/credil/operations/phonelist'
 alias networklist='cat ~/Desktop/network.txt'
-alias explorer='nautilus .'
 alias finances='scp ~/Desktop/finances.txt dadar:/home/shussain/Desktop; ssh code "killall nc"'
 alias cdcode='cd $HOME/project'
 
