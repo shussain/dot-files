@@ -50,6 +50,7 @@ alias battery='acpi -b'
 alias explorer='nautilus .'
 alias webtest='firefox &'
 alias gitk='gitk --all &'
+alias ping_google='ping 8.8.8.8'
 
 alias gdc='git diff --cached'
 alias gaiw='git diff -w --no-color | git apply --cached --ignore-whitespace'
