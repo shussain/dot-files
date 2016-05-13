@@ -85,6 +85,12 @@ alias mount_nexus7='sudo mtpfs -o allow_other /media/nexus7'
 
 alias mailtodo='mailx -s Todo habibilus@gmail.com < /home/shussain/Desktop/todo.txt'
 
+
+# redshift alias
+alias day='redshift -m vidmode:screen=0 -O 5500'
+alias evening='redshift -m vidmode:screen=0 -O 4000'
+alias night='redshift -m vidmode:screen=0 -O 3700'
+
 function boot() {
     BOOTTIME=`who -b |cut -c34-49`
     echo Boot time: $BOOTTIME
