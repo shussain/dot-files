@@ -87,9 +87,10 @@ alias mailtodo='mailx -s Todo habibilus@gmail.com < /home/shussain/Desktop/todo.
 
 
 # redshift alias
-alias day='redshift -m vidmode:screen=0 -O 5500'
-alias evening='redshift -m vidmode:screen=0 -O 4000'
-alias night='redshift -m vidmode:screen=0 -O 3700'
+alias day='redshift -m randr:screen=0 -O 5500'
+alias evening='redshift -m randr:screen=0 -O 4000'
+alias night='redshift -m randr:screen=0 -O 3700'
+alias redshift_reset='redshift -m randr:screen=0 -x'
 
 function boot() {
     BOOTTIME=`who -b |cut -c34-49`
