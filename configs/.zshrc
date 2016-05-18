@@ -55,7 +55,7 @@ alias ping_google='ping 8.8.8.8'
 alias gdc='git diff --cached'
 alias gaiw='git diff -w --no-color | git apply --cached --ignore-whitespace'
 
-alias phonelist='cat ~/credil/operations/phonelist'
+alias phonelist='cat ~/Desktop/phonelist'
 alias networklist='cat ~/Desktop/network.txt'
 alias finances='scp ~/Desktop/finances.txt dadar:/home/shussain/Desktop; ssh code "killall nc"'
 alias cdcode='cd $HOME/project'
