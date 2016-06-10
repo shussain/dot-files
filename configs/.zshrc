@@ -43,7 +43,7 @@ alias vim='nocorrect vim'
 
 #alias cal='ncal -bJM -A 1 -B 1'
 alias cal='ncal -y -w -M'
-alias calw='ncal -w'
+alias calw='ncal -w -M'
 alias bc='bc -l'
 alias hexdump='hexdump -v -e '"'"'"%010_ad  |"'"'"' -e '"'"'"%_p"'"'"' -e '"'"'/16 "|\n"'"'"''
 alias df='df -h'
