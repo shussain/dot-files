@@ -34,8 +34,8 @@ exec './.screenlayout/i3display.sh'
 exec volumeicon
 exec --no-startup-id nm-applet
 exec ssh-add
-exec_always --no-startup-id "sleep 1; setxkbmap -option caps:super"
-exec_always --no-startup-id "sleep 1; conky -c ~/.conkyrc"
+exec --no-startup-id "sleep 1; setxkbmap -option caps:super"
+exec --no-startup-id "sleep 1; conky -c ~/.conkyrc"
 
 # start a terminal
 bindsym $mod+Return exec i3-sensible-terminal
