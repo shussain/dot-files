@@ -36,6 +36,7 @@ exec --no-startup-id nm-applet
 exec ssh-add
 exec --no-startup-id "sleep 1; setxkbmap -option caps:super"
 exec --no-startup-id "sleep 1; conky -c ~/.conkyrc"
+exec "sleep 10; kdesudo start network-manager"
 
 # start a terminal
 bindsym $mod+Return exec i3-sensible-terminal
