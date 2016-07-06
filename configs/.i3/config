@@ -29,14 +29,18 @@ font pango:monospace 10
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
 
-# Start scripts
+# Start display scripts
 exec "./.screenlayout/i3display.sh"
+exec --no-startup-id "sleep 1; feh --bg-fill ~/media_fun/pics/background/GhpVD9H7_1280x800.jpg"
+exec --no-startup-id "sleep 1; conky -c ~/.conkyrc"
+
+# Start system tray apps
 exec volumeicon
 exec --no-startup-id nm-applet
-exec ssh-add ~/.ssh/id_rsa ~/.ssh/hre
+
+# Remap CAPS LOCK to be super key and load ssh key, and network manager
 exec --no-startup-id "sleep 1; setxkbmap -option caps:super"
-exec --no-startup-id "sleep 1; conky -c ~/.conkyrc"
-exec --no-startup-id "sleep 1; feh --bg-fill ~/media_fun/pics/background/GhpVD9H7_1280x800.jpg"
+exec ssh-add ~/.ssh/id_rsa ~/.ssh/hre
 exec "sleep 10; kdesudo start network-manager"
 
 # start a terminal
