@@ -33,7 +33,7 @@ floating_modifier $mod
 exec './.screenlayout/i3display.sh'
 exec volumeicon
 exec --no-startup-id nm-applet
-exec ssh-add
+exec ssh-add ~/.ssh/id_rsa ~/.ssh/hre
 exec --no-startup-id "sleep 1; setxkbmap -option caps:super"
 exec --no-startup-id "sleep 1; conky -c ~/.conkyrc"
 exec "sleep 10; kdesudo start network-manager"
