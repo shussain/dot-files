@@ -36,8 +36,6 @@ show_graph_scale no
 show_graph_range no
 #
 TEXT
-TODOs
+Battery: $battery_percent %
 $hr
 ${exec cat ~/Desktop/todo.txt}
-$hr
-Battery: $battery_percent %
