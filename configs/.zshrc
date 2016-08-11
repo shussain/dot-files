@@ -41,6 +41,7 @@ export TERMINAL='lxterminal'
 # Do not attempt to correct vim to .vim   E.g. sudo vim /etc/sudoers
 alias vim='nocorrect vim'
 
+alias p='ps -axf'
 #alias cal='ncal -bJM -A 1 -B 1'
 alias cal='ncal -y -w -M'
 alias calw='ncal -w -M'
