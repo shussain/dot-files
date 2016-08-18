@@ -49,6 +49,7 @@ alias bc='bc -l'
 alias hexdump='hexdump -v -e '"'"'"%010_ad  |"'"'"' -e '"'"'"%_p"'"'"' -e '"'"'/16 "|\n"'"'"''
 alias df='df -h'
 alias du='du -h'
+alias shred='shred -zun 50'
 
 alias battery='acpi -b'
 alias explorer='nautilus .'
