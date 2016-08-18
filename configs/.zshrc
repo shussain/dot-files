@@ -88,7 +88,7 @@ alias homedisplay='source $HOME/.screenlayout/home_bigdisplay.sh && source $HOME
 alias mount_nexus4='sudo mtpfs -o allow_other /media/nexus4'
 alias mount_nexus7='sudo mtpfs -o allow_other /media/nexus7'
 
-alias mailtodo='mailx -s Todo habibilus@gmail.com < /home/shussain/Desktop/todo.txt'
+alias mailtodo='mailx -s Todo habibilus@gmail.com < ~/Desktop/todo.txt'
 
 
 # redshift alias
