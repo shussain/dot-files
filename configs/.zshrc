@@ -90,6 +90,8 @@ alias mount_nexus7='sudo mtpfs -o allow_other /media/nexus7'
 
 alias mailtodo='mailx -s Todo habibilus@gmail.com < ~/Desktop/todo.txt'
 
+# reset local git changes (that have not been pushed)
+alias undo='git reset --hard HEAD'
 
 # redshift alias
 alias day='redshift -m randr:screen=0 -O 5500'
