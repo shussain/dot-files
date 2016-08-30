@@ -51,6 +51,7 @@ alias df='df -h'
 alias du='du -h'
 alias shred='shred -zun 50'
 
+alias vlist='virsh list --all'
 alias battery='acpi -b'
 alias explorer='nautilus .'
 alias webtest='firefox &'
