@@ -41,40 +41,35 @@ export TERMINAL='lxterminal'
 # Do not attempt to correct vim to .vim   E.g. sudo vim /etc/sudoers
 alias vim='nocorrect vim'
 
-alias p='ps -axf'
-#alias cal='ncal -bJM -A 1 -B 1'
 alias cal='ncal -y -w -M'
 alias calw='ncal -w -M'
 alias bc='bc -l'
-alias hexdump='hexdump -v -e '"'"'"%010_ad  |"'"'"' -e '"'"'"%_p"'"'"' -e '"'"'/16 "|\n"'"'"''
 alias df='df -h'
 alias du='du -h'
+alias gitk='gitk --all &'
+alias hexdump='hexdump -v -e '"'"'"%010_ad  |"'"'"' -e '"'"'"%_p"'"'"' -e '"'"'/16 "|\n"'"'"''
 alias shred='shred -zun 50'
+alias youtube-dl='~/bin/youtube-dl -t'
 
+alias p='ps -axf'
 alias vlist='virsh list --all'
 alias battery='acpi -b'
 alias explorer='nautilus .'
 alias webtest='firefox &'
-alias gitk='gitk --all &'
+alias getip='lynx --dump http://checkip.dyndns.org | cut -d: -f 2'
+alias getlargestitem='du -hsx * | sort -rh | head -10'
 alias ping_google='ping 8.8.8.8'
 
 alias gdc='git diff --cached'
 alias gaiw='git diff -w --no-color | git apply --cached --ignore-whitespace'
+# reset local git changes (that have not been pushed)
+alias undo='git reset --hard HEAD'
 
 alias phonelist='cat ~/Desktop/phonelist'
 alias networklist='cat ~/Desktop/network.txt'
 alias finances='scp ~/Desktop/finances.txt dadar:/home/shussain/Desktop; ssh code "killall nc"'
 alias cdcode='cd $HOME/project'
 
-# Generate random words... handy for generating passwords. Lately, been using pwgen instead
-# I realize I use cut way, way too much. I should really refactor my functions
-# to use awk and be neater.
-alias randword='wc -l /etc/dictionaries-common/words |cut -c1-5 |xargs -I numb rand -M numb |xargs -I randomnumb sed -n randomnumbp /etc/dictionaries-common/words'
-alias getip='lynx --dump http://checkip.dyndns.org | cut -d: -f 2'
-
-alias getlargestitem='du -hsx * | sort -rh | head -10'
-
-alias youtube-dl='~/bin/youtube-dl -t'
 alias reddit='firefox www.reddit.com/r/vim www.reddit.com/r/linux www.reddit.com/r/mma www.reddit.com/r/cricket www.reddit.com/r/ottawa www.reddit.com/r/canada www.reddit.com/r/canadapolitics'
 alias weather='curl http://wttr.in/ottawa'
 alias moon='curl wttr.in/Moon'
@@ -91,8 +86,10 @@ alias mount_nexus7='sudo mtpfs -o allow_other /media/nexus7'
 
 alias mailtodo='mailx -s Todo habibilus@gmail.com < ~/Desktop/todo.txt'
 
-# reset local git changes (that have not been pushed)
-alias undo='git reset --hard HEAD'
+# Generate random words... handy for generating passwords. Lately, been using pwgen instead
+# I realize I use cut way, way too much. I should really refactor my functions
+# to use awk and be neater.
+alias randword='wc -l /etc/dictionaries-common/words |cut -c1-5 |xargs -I numb rand -M numb |xargs -I randomnumb sed -n randomnumbp /etc/dictionaries-common/words'
 
 # redshift alias
 alias day='redshift -m randr:screen=0 -O 5500'
