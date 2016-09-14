@@ -28,8 +28,6 @@ export PATH=$HOME/bin:/usr/local/bin:$PATH
 #   export EDITOR='mvim'
 # fi
 
-# ssh
-# export SSH_KEY_PATH="~/.ssh/dsa_id"
 
 alias upgrade='sudo apt-get update && sudo apt-get upgrade'
 alias shutdown='sudo shutdown -h now'
@@ -60,6 +58,7 @@ alias webtest='firefox &'
 alias getip='lynx --dump http://checkip.dyndns.org | cut -d: -f 2'
 alias getlargestitem='sudo du -hsx * | sort -rh | head -10'
 alias ping_google='ping 8.8.8.8'
+alias sshvm='ssh samir -t tmux attach' # ssh into VM and attach to tmux
 
 alias gdc='git diff --cached'
 alias gaiw='git diff -w --no-color | git apply --cached --ignore-whitespace'
