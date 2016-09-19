@@ -51,6 +51,7 @@ alias shred='shred -zun 50'
 alias youtube-dl='~/bin/youtube-dl -t'
 
 alias p='ps -axf'
+alias v='virsh'
 alias vlist='virsh list --all'
 alias battery='acpi -b'
 alias explorer='nautilus .'
