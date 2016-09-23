@@ -8,8 +8,7 @@ git pull
 
 echo "----- Install dependencies -----"
 sudo apt-get install zsh
-sudo apt-get install exuberant-ctags stow
-sudo apt-get install tig
+sudo apt-get install stow
 sudo apt-get install tmux
 
 echo "----- Update vimrc submodules -----"
