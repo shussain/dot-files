@@ -41,6 +41,7 @@ alias vim='nocorrect vim'
 
 alias cal='ncal -y -w -M'
 alias calw='ncal -w -M'
+alias ctags='ctags -R .'
 alias bc='bc -l'
 alias df='df -h'
 alias du='du -h'
