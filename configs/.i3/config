@@ -33,6 +33,7 @@ floating_modifier $mod
 exec "./.screenlayout/i3display.sh"
 exec --no-startup-id "sleep 1; feh --bg-fill ~/media_fun/pics/background/star2.jpg"
 exec --no-startup-id "sleep 1; conky -c ~/.conkyrc"
+exec --no-startup-id "sleep 1; xautolock -time 5 -locker 'i3lock'"
 
 # Start system tray apps
 exec volumeicon
