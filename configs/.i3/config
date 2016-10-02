@@ -52,8 +52,8 @@ bindsym $mod+f exec firefox
 # start Chrome in incognitomode (its annoying firefox -private is disabled in Firefox that ships with Ubuntu)
 bindsym $mod+n exec google-chrome -incognito
 
-# start gvim
-bindsym $mod+v exec gvim
+# start nvim
+bindsym $mod+v exec gnome-terminal -x nvim
 
 # call xlock
 bindsym $mod+l exec i3lock
