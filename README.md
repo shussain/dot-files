@@ -3,4 +3,4 @@ dot-files
 
 Various dot/configuration files.
 
-Must install and use stow to manage different packages
+Use terminalsetup.sh to download dependencies, and setup the structure
