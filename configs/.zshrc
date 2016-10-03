@@ -69,7 +69,7 @@ alias undo='git reset --hard HEAD'
 
 alias phonelist='cat ~/Desktop/phonelist'
 alias networklist='cat ~/Desktop/network.txt'
-alias finances='scp ~/Desktop/finances.txt dadar:/home/shussain/Desktop; ssh code "killall nc"'
+alias finances='scp ~/Desktop/finances.txt.gpg dadar:/home/shussain/Desktop; ssh code "killall nc"'
 alias cdcode='cd $HOME/project'
 
 alias reddit='firefox www.reddit.com/r/vim www.reddit.com/r/linux www.reddit.com/r/mma www.reddit.com/r/cricket www.reddit.com/r/ottawa www.reddit.com/r/canada www.reddit.com/r/canadapolitics'
