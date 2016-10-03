@@ -30,7 +30,7 @@ font pango:monospace 10
 floating_modifier $mod
 
 # Start display scripts
-exec "./.screenlayout/i3display.sh"
+exec "./.screenlayout/dualdisplay.sh"
 exec --no-startup-id "sleep 1; feh --bg-fill ~/media_fun/pics/background/star2.jpg"
 exec --no-startup-id "sleep 1; conky -c ~/.conkyrc"
 exec --no-startup-id "sleep 1; xautolock -time 5 -locker 'i3lock'"
@@ -42,6 +42,9 @@ exec --no-startup-id nm-applet
 # Remap CAPS LOCK to be super key and load ssh key, and network manager
 exec --no-startup-id "sleep 1; setxkbmap -option caps:super"
 exec ssh-add ~/.ssh/id_rsa ~/.ssh/hre
+
+# Specify workspace (most useful for dual screen)
+workspace 2 output LVDS1
 
 # start a terminal
 bindsym $mod+Return exec i3-sensible-terminal
