@@ -61,6 +61,7 @@ alias getip='lynx --dump http://checkip.dyndns.org | cut -d: -f 2'
 alias getlargestitem='sudo du -hsx * | sort -rh | head -10'
 alias ping_google='ping 8.8.8.8'
 alias sshvm='ssh samir -t tmux attach' # ssh into VM and attach to tmux
+alias unmute='pactl set-sink-mute 0 0'
 
 alias gdc='git diff --cached'
 alias gaiw='git diff -w --no-color | git apply --cached --ignore-whitespace'
