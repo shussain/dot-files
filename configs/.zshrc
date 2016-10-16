@@ -15,7 +15,8 @@ plugins=(git encode64 fabric python web-search gpg-agent ubuntu vi-mode colored-
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
-source .zshalias
+source $HOME/.zshalias
+source $HOME/.zshfunction
 
 export PATH=$HOME/bin:/usr/local/bin:$PATH
 
@@ -28,48 +29,5 @@ if [[ -n $SSH_CONNECTION ]]; then
 else
     export EDITOR='vim'
 fi
-
-
-function boot() {
-    BOOTTIME=`who -b |cut -c34-49`
-    echo Boot time: $BOOTTIME
-}
-
-function json_validate {
-    python -c "import json; fd=open('$1'); answer = json.dumps(json.load(fd), indent=4); print(answer)"
-}
-
-reminder() {
-  echo notify-send -t 0 \'$2\' | at $1
-  echo "Reminder: $2 set for $1"
-}
-
-add_one_minute() {
-    time_in_epoch=`date -d $1 +%s`
-    s_time=$((time_in_epoch+60)) # Increment by 1 minute
-    set_time=`date -d "1970-01-01 00:00:00 UTC $s_time seconds" +"%H:%M"` # get time in %H:%M format
-    echo $set_time
-}
-
-reminders() {
-    set_time=$1
-    reminder $set_time $2
-
-    set_time=`add_one_minute $set_time`
-    reminder $set_time $2
-
-    set_time=`add_one_minute $set_time`
-    reminder $set_time $2
-
-    set_time=`add_one_minute $set_time`
-    reminder $set_time $2
-
-    set_time=`add_one_minute $set_time`
-    reminder $set_time $2
-}
-
-grepc() {
-    grep -rin --color=auto --exclude-dir={.bzr,.cvs,.git,.hg,.svn} --include=\*.{c,h,y,l} $1 .
-}
 
 source ~/.rc_local
