@@ -34,7 +34,7 @@ exec "./.screenlayout/dualdisplay.sh"
 exec --no-startup-id "sleep 1; feh --bg-fill ~/media_fun/pics/background/star2.jpg"
 exec --no-startup-id "sleep 1; conky -c ~/.conkyrc"
 exec --no-startup-id "sleep 1; xautolock -time 5 -locker 'i3lock'"
-exec "sleep 2; gksudo service aiccu restart"
+exec "sleep 5; gksudo service aiccu restart"
 
 
 # Start system tray apps
