@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# Normal install configuration.
+
 CURRENT_FOLDER=$PWD
 OH_MY_ZSH_DIR='oh-my-zsh'
 

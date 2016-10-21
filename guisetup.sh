@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# Install handy GUI packages.
+
 CURRENT_FOLDER=$PWD
 
 echo "----- Getting latest version -----"

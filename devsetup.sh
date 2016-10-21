@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# Install handy dev packages.
+
 CURRENT_FOLDER=$PWD
 
 echo "----- Install necessary dev packages -----"
