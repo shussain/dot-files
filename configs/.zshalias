@@ -40,6 +40,7 @@ alias undo='git reset --hard HEAD'
 alias phonelist='cat ~/Desktop/phonelist'
 alias networklist='cat ~/Desktop/network.txt'
 alias finances='scp ~/Desktop/finances.txt.gpg dadar:/home/shussain/Desktop; ssh code "killall nc"'
+alias startup='i3-msg "workspace 1;exec i3-sensible-terminal";i3-msg "workspace 2;exec /usr/bin/pidgin";i3-msg "workspace 3; exec /usr/bin/thunderbird"; i3-msg "workspace 4; exec firefox"; i3-msg "workspace 5; exec gnome-terminal -x ssh samir -t tmux attach"; i3-msg "workspace 10; exec gnome-terminal -x cmus"'
 alias cdcode='cd $HOME/project'
 
 alias reddit='firefox www.reddit.com/r/vim www.reddit.com/r/linux www.reddit.com/r/mma www.reddit.com/r/cricket www.reddit.com/r/ottawa www.reddit.com/r/canada www.reddit.com/r/canadapolitics'
