@@ -41,7 +41,7 @@ grepc() {
 }
 
 # this could be an alias but better to keep it next to similar functions
-reminder_clean() {
+reminders_clean() {
 		#atq |cut -f 1 | tr '\n' ' ' |xargs atrm
 		atq |cut -f 1 | xargs atrm
 }
