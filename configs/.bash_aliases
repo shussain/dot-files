@@ -11,6 +11,6 @@ alias iptable='sudo iptables -L -n -v'
 alias ping_google='ping 8.8.8.8'
 
 # Grab my .zshalias file
-if [ -f ~/.zshalias]; then
+if [ -f ~/.zshalias ]; then
     . ~/.zshalias
 fi
