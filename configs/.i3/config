@@ -33,8 +33,8 @@ floating_modifier $mod
 exec "./.screenlayout/dualdisplay.sh"
 exec --no-startup-id "sleep 1; feh --bg-fill ~/media_fun/pics/background/star2.jpg"
 exec --no-startup-id "sleep 1; conky -c ~/.conkyrc"
-exec --no-startup-id "sleep 1; xautolock -time 5 -locker 'i3lock'"
-exec "sleep 5; gksudo service aiccu restart"
+exec --no-startup-id "sleep 1; xautolock -time 10 -locker 'i3lock'"
+exec "sleep 5; gksudo service miredo start"
 
 
 # Start system tray apps
@@ -144,7 +144,7 @@ bindsym $mod+Shift+8 move container to workspace 8
 bindsym $mod+Shift+9 move container to workspace 9
 bindsym $mod+Shift+0 move container to workspace 10
 
-bindsym $mod+F8 exec "i3-msg 'workspace 1;exec i3-sensible-terminal';i3-msg 'workspace 2;exec /usr/bin/pidgin';i3-msg 'workspace 3; exec /usr/bin/thunderbird'; i3-msg 'workspace 4; exec firefox'; i3-msg 'workspace 5; exec gnome-terminal -x ssh samir -t tmux attach'"
+bindsym $mod+F8 exec "i3-msg 'workspace 1;exec i3-sensible-terminal';i3-msg 'workspace 2;exec /usr/bin/pidgin';i3-msg 'workspace 3; exec /usr/bin/thunderbird'; i3-msg 'workspace 4; exec firefox'; i3-msg 'workspace 5; exec gnome-terminal -x ssh samir -t tmux attach'; i3-msg 'workspace 10; exec gnome-terminal -x cmus'"
 
 # reload the configuration file
 bindsym $mod+Shift+c reload
