@@ -5,6 +5,7 @@ alias gdc='git diff --cached'
 alias gdca='git diff --cached'
 alias gcmsg='git commit -m'
 alias undo='git reset --hard HEAD'
+alias gaiw='git diff -w --no-color | git apply --cached --ignore-whitespace'
 
 # Common useful alias
 alias p='ps axf'
