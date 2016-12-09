@@ -29,13 +29,15 @@ font pango:monospace 10
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
 
-# Start display scripts
 exec "./.screenlayout/dualdisplay.sh"
 exec --no-startup-id "sleep 1; feh --bg-fill ~/media_fun/pics/background/star2.jpg"
 exec --no-startup-id "sleep 1; conky -c ~/.conkyrc"
 exec --no-startup-id "sleep 1; xautolock -time 10 -locker 'i3lock'"
 exec "sleep 5; gksudo service miredo start"
 
+# Specify .gvfs mount point so that I don't have to go to
+# /run/user/[processID]/gvfs
+exec "/usr/lib/gvfs/gvfsd-fuse ~/.gvfs"
 
 # Start system tray apps
 exec volumeicon
