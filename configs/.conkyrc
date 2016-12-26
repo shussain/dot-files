@@ -3,7 +3,7 @@
 # Slightly modified version of basic config
 # Adrian Mouat 2012
 #
-alignment top_right
+alignment top_left
 background yes
 border_width 1
 default_color white
