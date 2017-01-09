@@ -28,6 +28,7 @@ alias explorer='thunar'
 alias webtest='firefox &'
 alias getip='curl -s checkip.dyndns.org|sed -e "s/.*Current IP Address: //" -e "s/<.*$//"'
 alias getlargestitem='sudo du -hsx * | sort -rh | head -10'
+alias getwebheader='curl -I'
 alias ping_google='ping 8.8.8.8'
 alias sshvm='ssh samir -t tmux attach' # ssh into VM and attach to tmux
 alias unmute='pactl set-sink-mute 0 0'
