@@ -13,6 +13,7 @@ sudo apt-get install zsh
 sudo apt-get install stow
 sudo apt-get install tmux
 sudo apt-get install htop
+sudo apt-get install zip
 sudo apt-get install tree
 
 echo "----- Update vimrc submodules -----"
