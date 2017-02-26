@@ -41,6 +41,9 @@
 [pull]
 	default = current
 
+[log]
+    decorate = short
+
 [core]
 	editor = vim
 	excludesfile = ~/.gitignore
