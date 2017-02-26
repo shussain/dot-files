@@ -35,6 +35,9 @@
     changed   = red
     untracked = yellow
 
+[rebase]
+    autoStash = true
+
 [push]
 	default = current
 
