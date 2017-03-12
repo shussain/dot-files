@@ -48,7 +48,7 @@ alias startup='i3-msg "workspace 1;exec gnome-terminal -x tmux_setup.sh";i3-msg 
 alias cdcode='cd $HOME/project'
 
 alias reddit='firefox www.reddit.com/r/vim www.reddit.com/r/linux www.reddit.com/r/i3wm www.reddit.com/r/mma www.reddit.com/r/cricket www.reddit.com/r/ottawa www.reddit.com/r/canadapolitics'
-alias weather='curl http://wttr.in/ottawa'
+alias weather='curl "http://wttr.in/ottawa?q"'
 alias moon='curl wttr.in/Moon'
 
 alias pom='$HOME/code/python_code/pomodoro/pomodoro-notify.py &'
