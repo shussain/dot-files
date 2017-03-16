@@ -17,7 +17,7 @@ use_xft yes
 double_buffer yes
 xftfont DejaVu Sans Mono:size=12
 gap_x 5
-gap_y 120
+gap_y 230
 minimum_size 450
 no_buffers yes
 out_to_console no
