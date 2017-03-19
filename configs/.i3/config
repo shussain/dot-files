@@ -15,10 +15,6 @@ set $mod Mod4
 # is used in the bar {} block below.
 font pango:monospace 10
 
-# This font is widely installed, provides lots of unicode glyphs, right-to-left
-# text rendering and scalability on retina/hidpi displays (thanks to pango).
-#font pango:DejaVu Sans Mono 8
-
 # Before i3 v4.8, we used to recommend this one as the default:
 # font -misc-fixed-medium-r-normal--13-120-75-75-C-70-iso10646-1
 # The font above is very space-efficient, that is, it looks good, sharp and
@@ -139,7 +135,7 @@ bindsym $mod+Shift+8 move container to workspace 8
 bindsym $mod+Shift+9 move container to workspace 9
 bindsym $mod+Shift+0 move container to workspace 10
 
-bindsym $mod+F8 exec "i3-msg 'workspace 1;exec gnome-terminal -x tmux_setup.sh';i3-msg 'workspace 2;exec /usr/bin/pidgin';i3-msg 'workspace 3; exec /usr/bin/thunderbird'; i3-msg 'workspace 4; exec firefox'; i3-msg 'workspace 5; exec gnome-terminal -x ssh samir -t tmux attach'; i3-msg 'workspace 2; exec gnome-terminal -x cmus'"
+bindsym $mod+F8 exec "i3-msg 'workspace 1;exec gnome-terminal -x tmux_setup.sh';i3-msg 'workspace 2;exec /usr/bin/pidgin';i3-msg 'workspace 3; exec /usr/bin/thunderbird'; i3-msg 'workspace 4; exec firefox'; i3-msg 'workspace 5; exec gnome-terminal -x ssh samir -t tmux attach'; i3-msg 'workspace 2; exec gnome-terminal -x cmus';"
 
 # reload the configuration file
 bindsym $mod+Shift+c reload
