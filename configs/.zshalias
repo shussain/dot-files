@@ -17,6 +17,7 @@ alias du='du -h'
 alias gitk='gitk --all &'
 alias iptable='sudo iptables -L -n -v'
 alias hexdump='hexdump -v -e '"'"'"%010_ad  |"'"'"' -e '"'"'"%_p"'"'"' -e '"'"'/16 "|\n"'"'"''
+alias less='less -i'
 alias shred='shred -zun 50'
 alias youtube-dl='~/bin/youtube-dl -t'
 
