@@ -1,0 +1,23 @@
+#!/bin/bash
+
+# View log for various VM/machines
+
+# Script for setting up Tmux
+tmux new-session -d
+tmux split-window -d -t 0 -h
+tmux split-window -d -t 1 -v
+
+COMMAND='sudo tail -f /var/log/*'
+COMMANDS='sudo tail -f /var/log/syslog /var/log/auth.log'
+SAMIRCOMMAND="ssh samir -t $COMMANDS"
+DADARCOMMAND="ssh dadarv6 -t $COMMANDS"
+
+
+tmux send-keys -t 0 "$COMMAND" enter
+tmux send-keys -t 1 "$SAMIRCOMMAND" enter
+tmux send-keys -t 2 "$DADARCOMMAND" enter
+
+tmux select-pane -t 0
+
+tmux rename  syslog_viewer
+tmux attach
