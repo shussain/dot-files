@@ -6,11 +6,9 @@
 # Script for setting up Tmux
 tmux new-session -d
 tmux split-window -d -t 0 -h
-tmux split-window -d -t 1 -v
 
 tmux send-keys -t 0 'upgrade' enter
-tmux send-keys -t 1 'ssh dadarv6 -t "sudo apt-get update && sudo apt-get upgrade"' enter
-tmux send-keys -t 2 'ssh samir -t "sudo apt-get update && sudo apt-get upgrade"' enter
+tmux send-keys -t 1 'ssh samir -t "sudo apt-get update && sudo apt-get upgrade"' enter
 
 tmux select-pane -t 0
 
