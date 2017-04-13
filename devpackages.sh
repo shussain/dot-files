@@ -12,6 +12,7 @@ sudo apt-get install gcc
 echo "----- Install useful dev tools -----"
 sudo apt-get install exuberant-ctags
 sudo apt-get install gitk
+sudo apt-get install git-flow
 sudo apt-get install tig
 sudo apt-get install meld
 sudo apt-get install strace
