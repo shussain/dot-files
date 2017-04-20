@@ -9,7 +9,6 @@ tmux split-window -d -t 0 -h
 COMMAND='sudo tail -f /var/log/*'
 COMMANDS='sudo tail -f /var/log/syslog /var/log/auth.log'
 SAMIRCOMMAND="ssh samir -t $COMMANDS"
-DADARCOMMAND="ssh dadarv6 -t $COMMANDS"
 
 
 tmux send-keys -t 0 "$COMMAND" enter
