@@ -15,6 +15,7 @@ sudo apt-get install tmux
 sudo apt-get install htop
 sudo apt-get install zip
 sudo apt-get install tree
+sudo apt-get install figlet
 
 echo "----- Update vimrc submodules -----"
 git submodule init; git submodule sync; git submodule update
