@@ -34,3 +34,6 @@ else
 fi
 
 source ~/.rc_local
+
+# Use fzf (fuzzy finder written in Go)
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
