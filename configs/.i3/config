@@ -29,7 +29,7 @@ exec "./.screenlayout/dualdisplay.sh"
 exec --no-startup-id "sleep 1; feh --bg-fill ~/background_image"
 exec --no-startup-id "sleep 1; conky -c ~/.conkyrc"
 exec --no-startup-id "sleep 1; xautolock -time 10 -locker 'i3lock'"
-exec "sleep 5; gksudo service miredo start"
+exec "sleep 5; gksudo service miredo start; gksudo service openvpn@hre-infra start"
 
 # Specify .gvfs mount point so that I don't have to go to
 # /run/user/[processID]/gvfs
