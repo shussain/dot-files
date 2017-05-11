@@ -19,3 +19,4 @@ sudo apt-get install strace
 sudo apt-get install gdb
 
 cd "$CURRENT_FOLDER"
+echo "----- End -----"

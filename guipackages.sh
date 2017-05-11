@@ -19,3 +19,4 @@ sudo apt-get install ssh-askpass
 sudo apt-get install gksu
 
 cd "$CURRENT_FOLDER"
+echo "----- End -----"
