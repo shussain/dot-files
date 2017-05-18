@@ -6,12 +6,12 @@
 tmux new-session -d
 tmux split-window -d -t 0 -h
 
-COMMAND='sudo tail -f /var/log/*'
-COMMANDS='sudo tail -f /var/log/syslog /var/log/auth.log'
+COMMANDS='sudo tail -f /var/log/syslog /var/log/*.log /var/log/dmesg'
+
 SAMIRCOMMAND="ssh samir -t $COMMANDS"
+DADARCOMMAND="ssh dadarv6 -t $COMMANDS"
 
-
-tmux send-keys -t 0 "$COMMAND" enter
+tmux send-keys -t 0 "$COMMANDS" enter
 tmux send-keys -t 1 "$SAMIRCOMMAND" enter
 
 tmux select-pane -t 0
