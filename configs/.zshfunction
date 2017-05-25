@@ -54,6 +54,10 @@ reminders() {
     reminder $set_time $2
 }
 
+reminders_list() {
+    atq | awk '{ print $2 " " $3 " " $4 " " $5 " " $6 "   " $1}'
+}
+
 # this could be an alias but better to keep it next to similar functions
 reminders_clear() {
 		#atq |cut -f 1 | tr '\n' ' ' |xargs atrm
