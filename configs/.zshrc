@@ -20,6 +20,7 @@ source $ZSH/oh-my-zsh.sh
 # User configuration
 source $HOME/.zshalias
 source $HOME/.zshfunction
+source $HOME/.zshreminder
 
 export PATH=$HOME/bin:/usr/local/bin:$PATH
 
