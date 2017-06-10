@@ -24,14 +24,17 @@ function colours() {
     done
 }
 
-binlist () {
-    BIN_LENGTH=`ls -al /usr/bin/ | wc -l `
-    BIN_VALUE=`rand -M $BIN_LENGTH`
-    ls -al  /usr/bin/* | head -n $((BIN_VALUE + 1)) | tail -n 1
+# Helper method to get ranadom item from a directory (passed as $1)
+function list() {
+    list_dir=$1
+    LENGTH=`ls -al ${list_dir}/* | wc -l`
+    VALUE=`rand -M $LENGTH`
+    ls -al $1 | head -n $((VALUE + 1)) | tail -n 1
 }
 
+binlist () {
+    list /usr/bin/
+}
 manlist () {
-    MAN_LENGTH=`ls -al /usr/share/man/man2/* | wc -l `
-    MAN_VALUE=`rand -M $MAN_LENGTH`
-    ls -al /usr/share/man/man2/* | head -n $((MAN_VALUE + 1)) | tail -n 1
+    list /usr/share/man/man2/
 }
