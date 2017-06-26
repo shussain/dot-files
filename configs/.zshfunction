@@ -38,3 +38,13 @@ binlist () {
 manlist () {
     list /usr/share/man/man2/
 }
+
+togglehrevpn () {
+    if [ -f "/var/run/openvpn/hre-infra.pid" ]; then
+        ACTION='stop'
+    else
+        ACTION='start'
+    fi
+
+    sudo service openvpn@hre-infra $ACTION
+}
