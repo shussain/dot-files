@@ -17,6 +17,7 @@ sudo apt-get install zip
 sudo apt-get install tree
 sudo apt-get install mc
 sudo apt-get install figlet
+sudo apt-get install lolcat
 sudo apt-get install pwgen
 sudo apt-get install pass
 
