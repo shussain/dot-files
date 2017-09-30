@@ -39,22 +39,21 @@ manlist () {
     list /usr/share/man/man2/
 }
 
-togglehrevpn () {
-    if [ -f "/var/run/openvpn/hre-infra.pid" ]; then
+toggleservice () {
+
+    if [ -f "/var/run/$1" ]; then
         ACTION='stop'
     else
         ACTION='start'
     fi
 
-    sudo service openvpn@hre-infra $ACTION
+    sudo service $2 $ACTION
+}
+
+togglehrevpn () {
+    toggleservice openvpn/hre-infra.pid openvpn@hre-infra
 }
 
 togglemiredo () {
-    if [ -f "/var/run/miredo.pid" ]; then
-        ACTION='stop'
-    else
-        ACTION='start'
-    fi
-
-    sudo service miredo $ACTION
+    toggleservice miredo.pid miredo
 }
