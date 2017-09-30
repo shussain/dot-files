@@ -48,3 +48,13 @@ togglehrevpn () {
 
     sudo service openvpn@hre-infra $ACTION
 }
+
+togglemiredo () {
+    if [ -f "/var/run/miredo.pid" ]; then
+        ACTION='stop'
+    else
+        ACTION='start'
+    fi
+
+    sudo service miredo $ACTION
+}
