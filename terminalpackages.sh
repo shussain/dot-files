@@ -11,6 +11,7 @@ git pull
 echo "----- Install dependencies -----"
 sudo apt-get install zsh
 sudo apt-get install stow
+sudo apt-get install screen
 sudo apt-get install tmux
 sudo apt-get install htop
 sudo apt-get install zip
