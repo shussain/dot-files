@@ -18,5 +18,7 @@ sudo apt-get install cmus
 sudo apt-get install ssh-askpass
 sudo apt-get install gksu
 
+sudo snap install tldr
+
 cd "$CURRENT_FOLDER"
 echo "----- End -----"
