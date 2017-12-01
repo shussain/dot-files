@@ -13,7 +13,7 @@ DISABLE_AUTO_UPDATE="true"
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git git-flow encode64 fabric python web-search gpg-agent ubuntu vi-mode colored-man-pages extract)
+plugins=(git git-flow encode64 fabric python web-search gpg-agent ubuntu vi-mode emoji colored-man-pages extract)
 
 source $ZSH/oh-my-zsh.sh
 
