@@ -13,6 +13,10 @@
 	ci  = commit -v
 	aiw = "!f(){ git diff -w --no-color | git apply --cached --ignore-whitespace; };f"
 
+
+[apply]
+    whitespace = nowarn
+
 [color]
 	ui     = auto
 	diff   = auto
