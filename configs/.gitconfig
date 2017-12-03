@@ -49,5 +49,6 @@
 
 [core]
 	editor = vim
+    pager = less
 	excludesfile = ~/.gitignore
 	mergeoptions = --no-edit
