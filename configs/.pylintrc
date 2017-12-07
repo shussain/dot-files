@@ -1,2 +1,7 @@
+[MISCELLANEOUS]
+
+# List of note tags to take in consideration, separated by a comma.
+notes=FIXME,XXX,TODO
+
 [TYPECHECK]
 generated-members=cleaned_data,is_valid,objects,save,assertEqual
