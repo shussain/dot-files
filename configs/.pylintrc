@@ -5,3 +5,4 @@ notes=FIXME,XXX,TODO
 
 [TYPECHECK]
 generated-members=cleaned_data,is_valid,objects,save,assertEqual
+ignored-classes=Resource
