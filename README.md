@@ -2,9 +2,9 @@
 
 Various dot/configuration files.
 
-Use terminalpackages.sh to download dependencies, and setup the configuration
-structure. It will bootstrap to setup a vanilla VM/machine to have working vim,
-configurations, etc.
+Use the various *packages.sh to download dependencies, and setup the
+configuration structure. The scripts can be used to bootstrap a vanilla
+VM/machine to have vim, configurations, etc.
 
 For GUI environments, run _terminalpackages.sh_ first and then _guipackages.sh_
 
