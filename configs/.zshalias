@@ -20,7 +20,6 @@ alias hexdump='hexdump -v -e '"'"'"%010_ad  |"'"'"' -e '"'"'"%_p"'"'"' -e '"'"'/
 alias less='less -i'
 alias shred='shred -zun 50'
 alias unattended-upgrade='sudo unattended-upgrade -d'
-alias youtube-dl='~/bin/youtube-dl -t'
 
 alias p='ps -axf'
 alias v='virsh'
