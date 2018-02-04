@@ -68,9 +68,6 @@ alias dualdisplay='source $HOME/.screenlayout/dualdisplay.sh'
 alias singledisplay='source $HOME/.screenlayout/singledisplay.sh'
 alias bigdisplay='source /$HOME/.screenlayout/bigdisplay.sh'
 
-alias mount_nexus4='sudo mtpfs -o allow_other /media/nexus4'
-alias mount_nexus7='sudo mtpfs -o allow_other /media/nexus7'
-
 alias mailtodo='mailx -s Todo habibilus@gmail.com < ~/Desktop/todo.txt'
 
 # Generate random words... handy for generating passwords. Lately, been using pwgen instead
