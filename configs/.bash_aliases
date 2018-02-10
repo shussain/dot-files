@@ -7,6 +7,10 @@ alias gcmsg='git commit -m'
 alias undo='git reset --hard HEAD'
 alias gaiw='git diff -w --no-color | git apply --cached --ignore-whitespace'
 
+# Using some handy switch for commands
+alias df='df -hT'
+alias du='du -h'
+
 # Common useful alias
 alias p='ps axf'
 alias d='dirs -v | head -10'
