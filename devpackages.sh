@@ -17,6 +17,7 @@ sudo apt-get install tig
 sudo apt-get install meld
 sudo apt-get install strace
 sudo apt-get install gdb
+sudo apt-get install tcpdump
 
 cd "$CURRENT_FOLDER"
 echo "----- End -----"
