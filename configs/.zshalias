@@ -1,9 +1,7 @@
 # Specifying terminal program (for i3)
 export TERMINAL='lxterminal'
 
-# Do not attempt to correct vim to .vim   E.g. sudo vim /etc/sudoers
-alias vim='nocorrect vim'
-
+# Using some handy switch for commands
 alias cal='ncal -y -w -M'
 alias calw='ncal -w -M'
 alias ctags='ctags -R .'
@@ -17,13 +15,11 @@ alias less='less -i'
 alias shred='shred -zun 50'
 alias tree='tree -a -I ".git"'
 alias unattended-upgrade='sudo unattended-upgrade -d'
+# Do not attempt to correct vim to .vim   E.g. sudo vim /etc/sudoers
+alias vim='nocorrect vim'
 #alias xterm='xterm -font -*-fixed-medium-*-normal-*-14-130-*-*-*-*-*-* -geometry 110x35'
 
-alias p='ps -axf'
-alias v='virsh'
-alias vlist='virsh list --all'
-alias battery='acpi -b'
-alias cloc='find . -name "*.c" -or -name "*.h" -or -name "*.y" -or -name "*.l" | xargs wc -l'
+# Common useful alias
 alias compress='gzip -9'
 alias explorer='thunar'
 alias hibernate='sudo pm-hibernate'
@@ -40,9 +36,16 @@ alias unmute='pactl set-sink-mute 0 0'
 alias rd='rdesktop -a 15 -g 90% -z -x m -k en-us -r sound:off '
 alias rdz='rdesktop -a 15 -g 90% -z -x m -k en-us -r sound:local -r disk:z=/tmp/z '
 
+alias p='ps -axf'
+alias v='virsh'
+alias vlist='virsh list --all'
+alias battery='acpi -b'
+alias cloc='find . -name "*.c" -or -name "*.h" -or -name "*.y" -or -name "*.l" | xargs wc -l'
+
 alias upgrade='sudo apt-get update && sudo apt-get upgrade'
 alias shutdown='sudo shutdown -h now'
 
+# Git alias
 alias gdc='git diff --cached'
 alias gaiw='git diff -w --no-color | git apply --cached --ignore-whitespace'
 # reset local git changes (that have not been pushed)
