@@ -28,6 +28,7 @@ alias getip='curl -s checkip.dyndns.org|sed -e "s/.*Current IP Address: //" -e "
 alias getlargestitem='sudo du -hsx * | sort -rh | head -10'
 alias getwebheader='curl -I'
 alias hashsum='sha256sum'
+alias pb='curl -F c=@- https://ptpb.pw/'
 alias ping_google='ping 8.8.8.8'
 alias reddit='firefox www.reddit.com/r/programming www.reddit.com/r/vim www.reddit.com/r/i3wm www.reddit.com/r/tmux www.reddit.com/r/linux www.reddit.com/r/mma www.reddit.com/r/cricket www.reddit.com/r/ottawa www.reddit.com/r/canadapolitics'
 alias sshvm='ssh samir -t tmux attach' # ssh into VM and attach to tmux
