@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Normal install configuration.
+# Install handy configuration.
 
 CURRENT_FOLDER=$PWD
 OH_MY_ZSH_DIR='oh-my-zsh'
@@ -8,7 +8,7 @@ OH_MY_ZSH_DIR='oh-my-zsh'
 echo "----- Getting latest version -----"
 git pull
 
-echo "----- Install dependencies -----"
+echo "----- Install useful tools -----"
 sudo apt-get install zsh
 sudo apt-get install stow
 sudo apt-get install screen
