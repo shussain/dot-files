@@ -45,10 +45,8 @@ touch .rc_local
 mkdir .gnupg && touch .gnupg/gpg-agent.env
 git clone https://github.com/tmux-plugins/tpm $HOME/.tmux/plugins/tpm
 
-cd $CURRENT_FOLDER
-
 echo "----- Changing shell to zsh -----"
 chsh -s /usr/bin/zsh
 
-
+cd "$CURRENT_FOLDER"
 echo "----- End -----"
