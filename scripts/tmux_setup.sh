@@ -8,7 +8,7 @@ tmux split-window -d -t 0 -h
 tmux send-keys -t 0 'phonelist' enter
 #tmux send-keys -t 1 'vim' enter
 
-tmux select-pane -t 0
+tmux select-pane -t 1
 
 NAME=`hostname`
 tmux rename $NAME
