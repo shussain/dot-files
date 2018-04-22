@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Install handy configuration.
+# Install handy terminal packages.
 
 CURRENT_FOLDER=$PWD
 OH_MY_ZSH_DIR='oh-my-zsh'
