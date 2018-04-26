@@ -3,14 +3,8 @@
 #-------------------------------------------------------------
 
 
-
 # The following .rc file is a bit of a hack job. Feel free to
 # change to add project specific content
 
-alias sourcedep='. /usr/local/pythonenv/LOCALDEV/bin/activate'
+#export PATH=${PATH}:$HOME/android-sdk-linux/tools
 
-export PATH=${PATH}:$HOME/android-sdk-linux/tools
-
-# For ldns-1.6.12
-LD_LIBRARY_PATH=$HOME/ldns-1.6.12/.libs/ export LD_LIBRARY_PATH
-export PYTHONPATH=$HOME/ldns-1.6.12/contrib/ldnsx
