@@ -54,6 +54,7 @@ alias undo='git reset --hard HEAD'
 
 alias phonelist='cat ~/Desktop/phonelist'
 alias networklist='cat ~/Desktop/network.txt'
+alias gitlist='cat ~/Desktop/gitlist.txt'
 alias tickets='cat ~/Desktop/tickets.txt'
 
 alias finances='echo NOTHING IS HAPPENING'
