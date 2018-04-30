@@ -18,6 +18,7 @@ alias tree='tree -a -I ".git"'
 
 
 # Common useful alias
+alias compress='gzip -9'
 alias p='ps axf'
 alias d='dirs -v | head -10'
 alias iptable='sudo iptables -L -n -v'
