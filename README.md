@@ -6,6 +6,6 @@ Use the various _*packages.sh_ to download dependencies, and setup the
 configuration structure. The scripts can be used to bootstrap a vanilla
 VM/machine to have vim, configurations, etc.
 
-For GUI environments, run _terminalpackages.sh_ first and then _guipackages.sh_
+For GUI environments, run packages_terminal.sh first and then packages_gui.sh
 
-For development environments, run _terminalpackages.sh_ and then _devpackages.sh_
+For development environments, run packages_terminal.sh and then packages_dev.sh
