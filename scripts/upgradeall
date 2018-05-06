@@ -6,7 +6,9 @@
 tmux new-session -d
 tmux split-window -d -t 0 -h
 
-tmux send-keys -t 0 'upgrade' enter
+COMMANDS='sudo apt-get update && sudo apt-get upgrade'
+
+tmux send-keys -t 0 "$COMMANDS" enter
 tmux send-keys -t 1 'ssh samir -t "sudo apt-get update && sudo apt-get upgrade"' enter
 
 tmux select-pane -t 0
