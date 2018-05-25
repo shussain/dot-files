@@ -3,7 +3,7 @@ export TERMINAL='lxterminal'
 
 # Using some handy switch for commands
 alias cal='ncal -y -w -M'
-alias calw='ncal -w -M'
+alias calm='ncal -w -M'
 alias ctags='ctags -R .'
 alias bc='bc -l'
 alias df='df -hT'
