@@ -2,7 +2,7 @@
 
 This repository contains various dot/configuration files.
 
-Use the various _*packages.sh_ to download dependencies, and setup the
+Use the various packages_*.sh_ to download dependencies, and setup the
 configuration structure. The scripts can be used to bootstrap a vanilla
 VM/machine to have vim, configurations, etc.
 
