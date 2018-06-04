@@ -14,14 +14,7 @@ sudo apt-get install stow
 sudo apt-get install screen
 sudo apt-get install tmux
 sudo apt-get install htop
-sudo apt-get install zip
 sudo apt-get install tree
-sudo apt-get install mc
-sudo apt-get install figlet
-sudo apt-get install lolcat
-sudo apt-get install pwgen
-sudo apt-get install pass
-sudo apt-get install mosh
 
 
 echo "----- Update vimrc submodules -----"
