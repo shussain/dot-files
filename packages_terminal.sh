@@ -23,8 +23,8 @@ git submodule init; git submodule sync; git submodule update
 cd ..
 
 if [ ! -d "$OH_MY_ZSH_DIR" ]; then
-    echo "----- Get $OH_MY_ZSH_DIR submodules -----"
-    git clone https://github.com/robbyrussell/oh-my-zsh $OH_MY_ZSH_DIR
+    echo "----- Getting oh-my-zsh -----"
+    git clone https://github.com/robbyrussell/oh-my-zsh
 fi
 
 cd "$CURRENT_FOLDER"
