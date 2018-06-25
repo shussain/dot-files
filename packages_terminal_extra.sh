@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Install handy terminal packages.
+# Install extra terminal packages.
 
 CURRENT_FOLDER=$PWD
 
