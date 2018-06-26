@@ -7,6 +7,13 @@ CURRENT_FOLDER=$PWD
 echo "----- Getting latest version -----"
 git pull
 
+if [ ! -d ".fzf" ]; then
+    echo "----- Getting fuzzy find -----"
+    git clone https://github.com/junegunn/fzf.git .fzf
+    cd .fzf
+    ./install
+fi
+
 echo "----- Install useful tools -----"
 sudo apt-get install zip
 sudo apt-get install mc
