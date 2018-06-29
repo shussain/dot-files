@@ -15,8 +15,6 @@ alias less='less -i'
 alias shred='shred -zun 50'
 alias tree='tree -a -I ".git"'
 alias unattended-upgrade='sudo unattended-upgrade -d'
-# Do not attempt to correct vim to .vim   E.g. sudo vim /etc/sudoers
-alias vim='nocorrect vim'
 #alias xterm='xterm -font -*-fixed-medium-*-normal-*-14-130-*-*-*-*-*-* -geometry 110x35'
 
 # Common useful alias
