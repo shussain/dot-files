@@ -61,3 +61,8 @@ togglediovpn () {
 togglemiredo () {
     toggleservice miredo.pid miredo
 }
+
+toggle () {
+    toggleservice openvpn/hre-infra.pid openvpn@hre-infra
+    toggleservice openvpn/dio-infra.pid openvpn@dio-infra
+}
