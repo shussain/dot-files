@@ -1,8 +1,8 @@
 #!/bin/bash
 
-# View log for various VM/machines
+# View log for various VM/machines.
+# Script for setting up Tmux.
 
-# Script for setting up Tmux
 tmux new-session -d
 tmux split-window -d -t 0 -h
 

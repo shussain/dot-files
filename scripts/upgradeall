@@ -1,8 +1,8 @@
 #!/bin/bash
 
-# Script for updating several machines by calling 'apt-get update && apt-get upgrade'
+# Script for updating several machines by calling 'apt-get update && apt-get upgrade'.
+# Script for setting up Tmux.
 
-# Script for setting up Tmux
 tmux new-session -d
 tmux split-window -d -t 0 -h
 

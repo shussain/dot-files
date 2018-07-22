@@ -1,8 +1,8 @@
 #!/bin/bash
 
-# Setup normal environment
+# Setup normal environment.
+# Script for setting up Tmux.
 
-# Script for setting up Tmux
 tmux new-session -d
 tmux split-window -d -t 0 -h
 #tmux split-window -d -t 1 -v
