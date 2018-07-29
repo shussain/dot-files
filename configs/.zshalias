@@ -1,6 +1,3 @@
-# Specifying terminal program (for i3)
-export TERMINAL='lxterminal'
-
 # Using some handy switch for commands
 alias cal='ncal -y -w -M'
 alias calm='ncal -w -M'

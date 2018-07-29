@@ -10,6 +10,9 @@ ZSH_THEME="shussain"
 # Disable oh-my-zsh prompting/nag
 DISABLE_AUTO_UPDATE="true"
 
+# Specifying terminal program (for i3)
+export TERMINAL='lxterminal'
+
 # Report CPU usage for commands running longer than 5 seconds
 REPORTTIME=5
 
