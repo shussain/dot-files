@@ -20,4 +20,3 @@ of the various configurations. This can be done by running:
 
 _stow -R configs_
 _stow -R vimrc_
-
