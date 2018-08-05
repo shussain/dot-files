@@ -25,7 +25,7 @@ alias getwebheader='curl -I'
 alias hashsum='sha256sum'
 alias pb='curl -F c=@- https://ptpb.pw/'
 alias ping_google='ping 8.8.8.8'
-alias reddit='firefox www.reddit.com/r/programming www.reddit.com/r/vim www.reddit.com/r/i3wm www.reddit.com/r/tmux www.reddit.com/r/linux www.reddit.com/r/crunchyroll www.reddit.com/r/mma www.reddit.com/r/cricket www.reddit.com/r/ottawa www.reddit.com/r/canadapolitics'
+alias reddit='firefox reddit.com/r/programming reddit.com/r/vim reddit.com/r/i3wm reddit.com/r/tmux reddit.com/r/linux reddit.com/r/crunchyroll reddit.com/r/mma reddit.com/r/cricket reddit.com/r/ottawa reddit.com/r/canadapolitics'
 alias sshvm='ssh samir -t tmux attach' # ssh into VM and attach to tmux
 alias sshkvmnat='VM_IP=`ip n | grep virbr0| sed  "s/dev.*//g"`; ssh -A $VM_IP'
 alias unmute='pactl set-sink-mute 0 0'
