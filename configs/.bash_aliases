@@ -1,11 +1,15 @@
 # Using some handy switch for commands
+alias cal='ncal -y -w -M'
+alias calm='ncal -w -M'
 alias ctags='ctags -R .'
 alias bc='bc -l'
 alias df='df -hT'
 alias du='du -h'
+alias hexdump='hexdump -v -e '"'"'"%010_ad  |"'"'"' -e '"'"'"%_p"'"'"' -e '"'"'/16 "|\n"'"'"''
 alias less='less -i'
 alias shred='shred -zun 50'
 alias tree='tree -a -I ".git"'
+alias unattended-upgrade='sudo unattended-upgrade -d'
 
 # Common useful alias
 alias compress='gzip -9'
