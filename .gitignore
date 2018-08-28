@@ -1,2 +1,5 @@
+*~
 *.sw?
+*.bak
+tags
 configs/.tmux/plugins/*
