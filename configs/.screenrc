@@ -1,7 +1,6 @@
 # $Id: screenrc,v 1.15 2003/10/08 11:39:03 zal Exp $
 #
 # Script taken from Christian Meloche: crm@credil.org
-# /etc/screenrc
 #
 #   This is the system wide screenrc.
 #
@@ -112,4 +111,4 @@ defnonblock 5
 screen htop
 #screen -t code ssh code
 # screen -t mail 8 mutt
-# screen -t daemon 9 tail -f /var/log/daemon.log
+screen -t logs 9 tail -f /var/log/syslog /var/log/auth.log
