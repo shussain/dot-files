@@ -15,8 +15,8 @@ if [ ! -d ".fzf" ]; then
 fi
 
 echo "----- Install useful tools -----"
-sudo apt-get install zip
 sudo apt-get install mc
+sudo apt-get install zip
 sudo apt-get install figlet
 sudo apt-get install lolcat
 sudo apt-get install pwgen
