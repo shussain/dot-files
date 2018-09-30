@@ -8,6 +8,7 @@ echo "----- Getting latest version -----"
 git pull
 
 echo "----- Install useful GUI dependencies -----"
+sudo apt-get install arandr
 sudo apt-get install thunar
 sudo apt-get install redshift
 sudo apt-get install volumeicon-alsa
