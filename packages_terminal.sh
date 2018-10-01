@@ -15,6 +15,7 @@ sudo apt-get install screen
 sudo apt-get install tmux
 sudo apt-get install htop
 sudo apt-get install tree
+sudo apt-get install net-tools
 
 
 echo "----- Update vimrc submodules -----"
