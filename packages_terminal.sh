@@ -16,6 +16,7 @@ sudo apt-get install tmux
 sudo apt-get install htop
 sudo apt-get install tree
 sudo apt-get install net-tools
+sudo apt-get install curl
 
 
 echo "----- Update vimrc submodules -----"
