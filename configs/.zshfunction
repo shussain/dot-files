@@ -40,8 +40,9 @@ manlist () {
 }
 
 toggleservice () {
+	RESULT=`ps axf | grep $1 | wc -l`
 
-    if [ -f "/var/run/$1" ]; then
+    if [ $RESULT -gt 1 ]; then
         ACTION='stop'
     else
         ACTION='start'
@@ -51,13 +52,13 @@ toggleservice () {
 }
 
 togglehrevpn () {
-    toggleservice openvpn/hre-infra.pid openvpn@hre-infra
+    toggleservice hre-infra openvpn-client@hre-infra
 }
 togglediovpn () {
-    toggleservice openvpn/dio-infra.pid openvpn@dio-infra
+    toggleservice dio-infra openvpn-client@dio-infra
 }
 togglemiredo () {
-    toggleservice miredo.pid miredo
+    toggleservice miredo miredo
 }
 
 toggle () {
