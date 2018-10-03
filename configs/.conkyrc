@@ -1,40 +1,33 @@
-#.conkyrc for TODOs
-#
-# Slightly modified version of basic config
-# Adrian Mouat 2012
-#
-alignment top_left
-background yes
-border_width 1
-default_color white
-default_outline_color white
-default_shade_color white
-draw_borders no
-draw_graph_borders yes
-draw_outline no
-draw_shades no
-use_xft yes
-double_buffer yes
-xftfont DejaVu Sans Mono:size=12
-gap_x 5
-gap_y 230
-minimum_size 450
-no_buffers yes
-out_to_console no
-out_to_stderr no
-extra_newline no
-own_window yes
-own_window_class Conky
-own_window_type override
-own_window_transparent yes
-stippled_borders 0
-update_interval 1.0
-uppercase no
-use_spacer none
-show_graph_scale no
-show_graph_range no
-#
-TEXT
-Battery: ${battery BAT1}
-$hr
-${exec cat ~/Desktop/todo.txt}
+conky.config = {
+	background = true,
+	use_xft = true,
+	font = 'DejaVu Sans Mono:size=12',
+	xftalpha = 0.5,
+	update_interval = 5,
+	total_run_times = 0,
+	own_window = true,
+	own_window_type = 'override',
+	own_window_transparent = true,
+	own_window_hints = 'undecorated,below,sticky,skip_taskbar,skip_pager',
+	double_buffer = true,
+	minimum_width = 260, minimum_height = 5,
+	draw_shades = false,
+	draw_outline = false,
+	draw_borders = false,
+	draw_graph_borders = false,
+	default_color = 'grey',
+	default_shade_color = 'red',
+	default_outline_color = 'green',
+	alignment = 'top_left',
+	gap_x = 4,
+	gap_y = 230,
+	no_buffers = true,
+	uppercase = false,
+	override_utf8_locale = false
+};
+
+conky.text = [[
+    ${battery BAT1}
+    ${hr}
+    ${exec cat ~/Desktop/todo.txt}
+]];
