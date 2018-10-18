@@ -9,6 +9,8 @@ git pull
 
 echo "----- Install useful GUI dependencies -----"
 sudo apt-get install i3
+sudo apt-get install volumeicon-alsa
+sudo apt-get install xautolock
 
 cd "$CURRENT_FOLDER"
 echo "----- End -----"
