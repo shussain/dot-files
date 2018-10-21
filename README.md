@@ -11,6 +11,8 @@ VM/machine to have vim, configurations, etc.
 
 For all use cases, run: packages_terminal.sh
 
+For setting up a Windows manager, run: packages_window_manger.sh
+
 For server VM, also run: packages_terminal_extra.sh
 
 For GUI environments, also run: packages_terminal_extra.sh and packages_gui.sh
