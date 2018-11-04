@@ -10,6 +10,7 @@ git pull
 
 echo "----- Install useful tools -----"
 sudo apt-get install zsh
+sudo apt-get install ispell
 sudo apt-get install stow
 sudo apt-get install screen
 sudo apt-get install tmux
