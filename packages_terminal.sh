@@ -9,6 +9,7 @@ echo "----- Getting latest version -----"
 git pull
 
 echo "----- Install useful tools -----"
+sudo apt-get install openssh-server
 sudo apt-get install zsh
 sudo apt-get install ispell
 sudo apt-get install stow
