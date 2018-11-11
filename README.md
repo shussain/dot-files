@@ -15,7 +15,7 @@ For setting up a Windows manager, run: packages_window_manger.sh
 
 For server VM, also run: packages_terminal_extra.sh
 
-For GUI environments, also run: packages_terminal_extra.sh and packages_gui.sh
+For GUI environments, also run: packages_terminal_extra.sh, packages_window_manger.sh and packages_gui.sh
 
 For development environments, also run: packages_terminal_extra.sh and packages_dev.sh
 
