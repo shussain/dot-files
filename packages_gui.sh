@@ -15,6 +15,7 @@ sudo apt-get install feh
 sudo apt-get install cmus
 sudo apt-get install ssh-askpass
 sudo apt-get install gksu
+sudo apt-get install markdown
 
 sudo apt-get install thunar
 sudo apt install tumbler tumbler-plugins-extra ffmpegthumbnailer
