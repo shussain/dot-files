@@ -5,7 +5,7 @@ setting up various environments.
 
 ## Installation
 
-Use the various packages_*.sh_ to download dependencies, and setup the
+Use the various packages_*.sh to download dependencies, and setup the
 configuration structure. The scripts can be used to bootstrap a vanilla
 VM/machine to have vim, configurations, etc.
 
