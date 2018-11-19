@@ -11,6 +11,7 @@ echo "----- Install useful GUI dependencies -----"
 sudo apt-get install arandr
 sudo apt-get install rdesktop
 sudo apt-get install redshift
+sudo apt-get install glances
 sudo apt-get install feh
 sudo apt-get install cmus
 sudo apt-get install ssh-askpass
