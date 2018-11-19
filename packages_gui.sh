@@ -10,6 +10,7 @@ git pull
 echo "----- Install useful GUI dependencies -----"
 sudo apt-get install arandr
 sudo apt-get install rdesktop
+sudo apt-get install kde-spectacles
 sudo apt-get install redshift
 sudo apt-get install glances
 sudo apt-get install feh
