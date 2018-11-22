@@ -18,7 +18,7 @@ font pango:monospace 10
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
 
-exec "./.screenlayout/dualdisplay.sh"
+exec "./.screenlayout/multidisplay.sh"
 exec --no-startup-id "sleep 1; feh --bg-fill ~/background_image"
 exec --no-startup-id "sleep 1; conky -c ~/.conkyrc"
 exec --no-startup-id "sleep 1; xautolock -time 10 -locker 'i3lock'"
@@ -38,11 +38,12 @@ exec --no-startup-id "sleep 1; setxkbmap -option caps:super"
 exec ssh-add ~/.ssh/id_rsa ~/.ssh/infra ~/.ssh/xeler ~/.ssh/hre ~/.ssh/dio
 
 # Specify workspace (most useful for dual screen)
-workspace 1  output HDMI-1
+workspace 1  output HDMI-2
 workspace 2  output eDP-1
 workspace 3  output HDMI-1
-workspace 4  output HDMI-1
+workspace 4  output HDMI-2
 workspace 5  output eDP-1
+workspace 6  output HDMI-1
 
 # Start a terminal
 bindsym $mod+Return exec i3-sensible-terminal
