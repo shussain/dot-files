@@ -69,7 +69,7 @@ alias moon='curl wttr.in/Moon'
 alias pom='$HOME/code/python_code/pomodoro/pomodoro-notify.py &'
 alias pom_b='$HOME/code/python_code/pomodoro/pomodoro-notify.py -b &'
 
-alias dualdisplay='source $HOME/.screenlayout/dualdisplay.sh'
+alias multidisplay='source $HOME/.screenlayout/multidisplay.sh'
 alias singledisplay='source $HOME/.screenlayout/singledisplay.sh'
 alias bigdisplay='source /$HOME/.screenlayout/bigdisplay.sh'
 
