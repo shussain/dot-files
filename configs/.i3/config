@@ -30,6 +30,7 @@ exec "/usr/lib/gvfs/gvfsd-fuse ~/.gvfs"
 
 # Start system tray apps
 exec volumeicon
+exec blueman-applet
 exec --no-startup-id nm-applet
 
 # Remap CAPS LOCK to be super key and load ssh key, and network manager
