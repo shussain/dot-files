@@ -44,7 +44,6 @@ workspace 2  output eDP-1
 workspace 3  output HDMI-1
 workspace 4  output HDMI-2
 workspace 5  output eDP-1
-workspace 6  output HDMI-1
 
 # Start a terminal
 bindsym $mod+Return exec i3-sensible-terminal
