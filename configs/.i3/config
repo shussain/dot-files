@@ -45,19 +45,19 @@ workspace 3  output HDMI-1
 workspace 4  output HDMI-2
 workspace 5  output eDP-1
 
-# Start a terminal
+# Launch a terminal
 bindsym $mod+Return exec i3-sensible-terminal
 
-# Start Firefox
+# Launch Firefox
 bindsym $mod+f exec firefox
 
-# Start Chrome
+# Launch Chrome
 bindsym $mod+c exec google-chrome
 
-# Start gvim
+# Launch gvim
 bindsym $mod+v exec gvim
 
-# Start Nautilus
+# Launch Nautilus
 bindsym $mod+n exec nautilus
 
 # Call xlock
@@ -67,13 +67,12 @@ bindsym $mod+l exec i3lock
 bindsym $mod+q kill
 bindsym Mod1+F4 kill
 
-# Start rofi in application launcher
+# Launch rofi in application launcher
 bindsym $mod+d exec rofi -show run
 bindsym Mod1+F2 exec rofi -show run
 
-# Start rofi as task switcher
+# Launch rofi as task switcher
 bindsym $mod+Tab exec rofi -show window
-
 
 # There also is the (new) i3-dmenu-desktop which only displays applications
 # shipping a .desktop file. It is a wrapper around dmenu, so you need that
