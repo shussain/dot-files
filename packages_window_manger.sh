@@ -10,6 +10,7 @@ git pull
 echo "----- Install useful GUI dependencies -----"
 sudo apt-get install i3
 sudo apt-get install rofi
+sudo apt-get install blueman
 sudo apt-get install volumeicon-alsa
 sudo apt-get install xautolock
 
