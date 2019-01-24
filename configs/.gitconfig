@@ -39,6 +39,9 @@
 	old  = red
 	new  = green
 
+[grep]
+	linenumber = true
+
 [rebase]
     autoStash = true
 
