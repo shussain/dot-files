@@ -8,7 +8,7 @@ tmux split-window -d -t 0 -h
 #tmux split-window -d -t 1 -v
 
 tmux send-keys -t 0 'phonelist' enter
-#tmux send-keys -t 1 'vim' enter
+tmux send-keys -t 1 'weather_short' enter
 
 tmux select-pane -t 1
 
