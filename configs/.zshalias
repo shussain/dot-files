@@ -65,7 +65,7 @@ alias cdcode='cd $HOME/project'
 alias bitcoin='curl rate.sx'
 alias bitcoinc='curl cad.rate.sx'
 alias weather='curl "http://wttr.in/ottawa?q"'
-alias weather_short='curl "wttr.in/Paris?format=\"%l:+%c+%t,+%w+%m\""'
+alias weather_short='curl "wttr.in/Ottawa?format=\"%l:+%c+%t,+%w+%m\""'
 alias moon='curl wttr.in/Moon'
 
 alias pom='$HOME/code/python_code/pomodoro/pomodoro-notify.py &'
