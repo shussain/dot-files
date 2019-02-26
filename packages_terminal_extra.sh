@@ -23,6 +23,7 @@ sudo apt-get install pwgen
 sudo apt-get install pass
 sudo apt-get install rand
 sudo apt-get install whois
+sudo apt-get install espeak
 
 cd "$CURRENT_FOLDER"
 echo "----- End -----"
