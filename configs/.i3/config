@@ -36,7 +36,7 @@ exec --no-startup-id nm-applet
 # Remap CAPS LOCK to be super key and load ssh key, and network manager
 exec --no-startup-id "sleep 1; setxkbmap -option caps:super"
 
-exec ssh-add ~/.ssh/id_rsa ~/.ssh/infra ~/.ssh/xeler ~/.ssh/hre ~/.ssh/dio ~/.ssh/hre-2019
+exec ssh-add ~/.ssh/id_rsa ~/.ssh/infra ~/.ssh/xeler ~/.ssh/hre ~/.ssh/dio ~/.ssh/hre-2019 ~/.ssh/apt-dater
 
 # Specify workspace (most useful for dual screen)
 workspace 1  output HDMI-2
