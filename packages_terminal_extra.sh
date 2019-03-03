@@ -25,5 +25,8 @@ sudo apt-get install rand
 sudo apt-get install whois
 sudo apt-get install espeak
 
+sudo apt-get install apt-dater
+sudo apt-get install apt-dater-host
+
 cd "$CURRENT_FOLDER"
 echo "----- End -----"
