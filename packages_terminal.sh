@@ -13,6 +13,7 @@ sudo apt-get install openssh-server
 sudo apt-get install zsh
 sudo apt-get install ispell
 sudo apt-get install stow
+sudo apt-get install tig
 sudo apt-get install screen
 sudo apt-get install tmux
 sudo apt-get install htop
