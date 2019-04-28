@@ -24,6 +24,9 @@ sudo apt-get install pass
 sudo apt-get install rand
 sudo apt-get install whois
 sudo apt-get install espeak
+sudo apt-get install ispell
+sudo apt-get install glances
+sudo apt-get install net-tools
 
 sudo apt-get install apt-dater
 sudo apt-get install apt-dater-host

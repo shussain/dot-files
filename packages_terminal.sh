@@ -11,15 +11,12 @@ git pull
 echo "----- Install useful tools -----"
 sudo apt-get install openssh-server
 sudo apt-get install zsh
-sudo apt-get install ispell
 sudo apt-get install stow
 sudo apt-get install tig
 sudo apt-get install screen
 sudo apt-get install tmux
 sudo apt-get install htop
-sudo apt-get install glances
 sudo apt-get install tree
-sudo apt-get install net-tools
 sudo apt-get install curl
 
 
