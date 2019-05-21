@@ -1,6 +1,7 @@
 #!/bin/bash
 
-# Script for updating several machines by calling 'apt-get update && apt-get upgrade'.
+# Script for updating localhost and other VMs by calling:
+#    apt-get update && apt-get upgrade
 # Script uses Tmux.
 
 tmux new-session -d

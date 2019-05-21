@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# View log for various VM/machines.
+# View logs for localhost and other VMs.
 # Script uses Tmux.
 
 tmux new-session -d
