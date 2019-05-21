@@ -4,9 +4,6 @@
 
 CURRENT_FOLDER=$PWD
 
-echo "----- Getting latest version -----"
-git pull
-
 echo "----- Install useful GUI dependencies -----"
 sudo apt-get install arandr
 sudo apt-get install rdesktop

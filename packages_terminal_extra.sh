@@ -4,9 +4,6 @@
 
 CURRENT_FOLDER=$PWD
 
-echo "----- Getting latest version -----"
-git pull
-
 if [ ! -d ".fzf" ]; then
     echo "----- Getting fuzzy find -----"
     git clone https://github.com/junegunn/fzf.git .fzf

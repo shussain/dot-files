@@ -5,9 +5,6 @@
 CURRENT_FOLDER=$PWD
 OH_MY_ZSH_DIR='oh-my-zsh'
 
-echo "----- Getting latest version -----"
-git pull
-
 echo "----- Install useful tools -----"
 sudo apt-get install openssh-server
 sudo apt-get install zsh
