@@ -4,7 +4,7 @@
 #
 #   This is the system wide screenrc.
 #
-#   You can use this file to change the default behavior of screen system wide
+#   You can use this file to change the default behaviour of screen system wide
 #   or copy it to ~/.screenrc and use it as a starting point for your own
 #   settings.
 #
@@ -109,6 +109,5 @@ defnonblock 5
 #   respectively.
 #
 screen htop
-#screen -t code ssh code
 # screen -t mail 8 mutt
 screen -t logs 9 tail -f /var/log/syslog /var/log/auth.log
