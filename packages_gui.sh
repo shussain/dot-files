@@ -12,8 +12,6 @@ sudo apt-get install cmus
 sudo apt-get install rdesktop
 sudo apt-get install ssh-askpass gksu
 sudo apt-get install markdown
-
-sudo apt-get install thunar
 sudo apt install tumbler tumbler-plugins-extra ffmpegthumbnailer
 
 sudo snap install tldr
