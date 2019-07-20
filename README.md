@@ -19,6 +19,8 @@ For GUI environments, also run: packages_terminal_extra.sh, packages_window_mang
 
 For development environments, also run: packages_terminal_extra.sh and packages_dev.sh
 
+For work environment, also run: packages_work.sh
+
 ## Deployment
 
 Stow (a software installation manager) can be used to create symbolic link
