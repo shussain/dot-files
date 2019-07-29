@@ -16,8 +16,8 @@ sudo apt-get install meld
 sudo apt-get install strace
 sudo apt-get install gdb
 sudo apt-get install tcpdump
-sudo apt-get install yamlint
-#sudo apt-get install goaccess
+
+sudo apt-get install yamllint
 
 cd "$CURRENT_FOLDER"
 echo "----- End -----"
