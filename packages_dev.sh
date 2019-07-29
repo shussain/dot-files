@@ -17,7 +17,7 @@ sudo apt-get install strace
 sudo apt-get install gdb
 sudo apt-get install tcpdump
 
-sudo apt-get install yamllint
+sudo apt-get install pylint yamllint
 
 cd "$CURRENT_FOLDER"
 echo "----- End -----"
