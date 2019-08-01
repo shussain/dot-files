@@ -13,8 +13,7 @@ echo "----- Install useful dev tools -----"
 sudo apt-get install exuberant-ctags
 sudo apt-get install gitk
 sudo apt-get install meld
-sudo apt-get install strace
-sudo apt-get install gdb
+sudo apt-get install strace gdb
 sudo apt-get install tcpdump
 
 sudo apt-get install pylint yamllint
