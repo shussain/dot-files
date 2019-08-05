@@ -14,6 +14,7 @@ sudo apt-get install screen tmux
 sudo apt-get install htop
 sudo apt-get install tree
 sudo apt-get install curl
+sudo apt-get install zip
 
 
 echo "----- Update vimrc submodules -----"
