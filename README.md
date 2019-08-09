@@ -1,7 +1,7 @@
 # dot-files
 
-This repository contains various dot/configuration files and setup scripts for
-setting up various environments.
+This repository contains various dot/configuration files and setup scripts
+for setting up various environments.
 
 ## Installation
 
