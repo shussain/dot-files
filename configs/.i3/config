@@ -148,7 +148,7 @@ bindsym $mod+Shift+8 move container to workspace 8
 bindsym $mod+Shift+9 move container to workspace 9
 bindsym $mod+Shift+0 move container to workspace 10
 
-bindsym $mod+F8 exec "i3-msg 'workspace 1;exec gnome-terminal -x tmux_setup.sh';i3-msg 'workspace 2;exec /usr/bin/pidgin';i3-msg 'workspace 3; exec /usr/bin/thunderbird'; i3-msg 'workspace 4; exec firefox'; i3-msg 'workspace 5; exec gnome-terminal -x ssh samir -t tmux attach'; i3-msg 'workspace 2; exec gnome-terminal -x cmus';i3-msg 'workspace 4;exec vlc';"
+bindsym $mod+F8 exec "i3-msg 'workspace 1;exec gnome-terminal -x tmux_setup.sh';i3-msg 'workspace 2;exec /usr/bin/pidgin';i3-msg 'workspace 3; exec /usr/bin/thunderbird'; i3-msg 'workspace 2; exec /usr/bin/nagstamon';i3-msg 'workspace 4; exec firefox'; i3-msg 'workspace 5; exec gnome-terminal -x ssh samir -t tmux attach'; i3-msg 'workspace 2; exec gnome-terminal -x cmus';i3-msg 'workspace 4;exec vlc';"
 
 # Reload the configuration file
 bindsym $mod+Shift+c reload
