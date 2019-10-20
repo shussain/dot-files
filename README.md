@@ -12,7 +12,7 @@ VM/machine to have vim, configurations, etc.
 ### For all use cases, run:
 packages-terminal.sh
 
-### For setting up a Windows manager, run:
+### For setting up a Windows manager, also run:
 packages-window-manger.sh
 
 ### For server VM, also run:
