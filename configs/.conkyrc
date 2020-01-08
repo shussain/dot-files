@@ -10,7 +10,7 @@ conky.config = {
 	own_window_transparent = true,
 	own_window_hints = 'undecorated,below,sticky,skip_taskbar,skip_pager',
 	double_buffer = true,
-	minimum_width = 260, minimum_height = 5,
+	minimum_width = 560, minimum_height = 5,
 	draw_shades = false,
 	draw_outline = false,
 	draw_borders = false,
@@ -29,5 +29,12 @@ conky.config = {
 conky.text = [[
     ${battery BAT1}
     ${hr}
-    ${exec cat ~/Desktop/todo.txt}
+
+	${color #888888}DRIVES - FREE SPACE ${hr 2}$color
+	${color gold}Wendy    ${color #888888}[${fs_size /}, ${fs_type /}] ${color #FFFFFF}$alignr${fs_free /} ${color #444444}[${fs_free_perc /}%]
+	${color gold}Home dir ${color #888888}[${fs_size /home/shussain}, ${fs_type /home/shussain}] ${color #FFFFFF}$alignr${fs_free /home/shussain} ${color #444444}[${fs_free_perc /home/shussain}%]
+    ${hr}
+
+    ${color grey}
+    ${exec cat ~/Desktop/phonelist} */
 ]];
