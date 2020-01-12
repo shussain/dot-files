@@ -74,6 +74,7 @@ alias pom='$HOME/code/python_code/pomodoro/pomodoro-notify.py &'
 alias pom_b='$HOME/code/python_code/pomodoro/pomodoro-notify.py -b &'
 
 alias multidisplay='source $HOME/.screenlayout/multidisplay.sh'
+alias mirroreddisplay='source /home/shussain/.screenlayout/mirrored.sh'
 alias singledisplay='source $HOME/.screenlayout/singledisplay.sh'
 alias bigdisplay='source /$HOME/.screenlayout/bigdisplay.sh'
 
