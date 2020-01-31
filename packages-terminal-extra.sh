@@ -12,16 +12,16 @@ if [ ! -d ".fzf" ]; then
 fi
 
 echo "----- Install useful tools -----"
+sudo apt-get install fish
 sudo apt-get install mc
 sudo apt-get install figlet lolcat
 sudo apt-get install pwgen pass
 sudo apt-get install rand
-sudo apt-get install whois
 sudo apt-get install espeak
 sudo apt-get install ispell
 sudo apt-get install net-tools
+sudo apt-get install whois
 sudo apt-get install rtv
-sudo apt-get install fish
 
 sudo apt-get install apt-dater
 sudo apt-get install apt-dater-host
