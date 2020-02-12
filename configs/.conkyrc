@@ -28,13 +28,13 @@ conky.config = {
 
 conky.text = [[
     ${battery BAT1}
-    ${hr}
+${hr}
 
-	${color #888888}DRIVES - FREE SPACE ${hr 2}$color
-	${color gold}Wendy    ${color #888888}[${fs_size /}, ${fs_type /}] ${color #FFFFFF}$alignr${fs_free /} ${color #444444}[${fs_free_perc /}%]
-	${color gold}Home dir ${color #888888}[${fs_size /home/shussain}, ${fs_type /home/shussain}] ${color #FFFFFF}$alignr${fs_free /home/shussain} ${color #444444}[${fs_free_perc /home/shussain}%]
-    ${hr}
+${color #888888}DRIVES - FREE SPACE ${hr 2}$color
+${color gold}Wendy    ${color #888888}[${fs_size /}, ${fs_type /}] ${color #FFFFFF}$alignr${fs_free /} ${color #444444}[${fs_free_perc /}%]
+${color gold}Home dir ${color #888888}[${fs_size /home/shussain}, ${fs_type /home/shussain}] ${color #FFFFFF}$alignr${fs_free /home/shussain} ${color #444444}[${fs_free_perc /home/shussain}%]
+${hr}
 
-    ${color grey}
-    ${exec cat ~/Desktop/phonelist} */
+${color grey}
+${exec cat ~/Desktop/phonelist}
 ]];
