@@ -22,6 +22,7 @@ sudo apt-get install ispell
 sudo apt-get install net-tools
 sudo apt-get install whois
 sudo apt-get install rtv
+sudo apt-get install w3m w3m-img
 
 sudo apt-get install apt-dater
 sudo apt-get install apt-dater-host
