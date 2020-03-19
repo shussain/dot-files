@@ -75,7 +75,7 @@ alias pom_b='$HOME/code/python_code/pomodoro/pomodoro-notify.py -b &'
 
 alias multidisplay='source $HOME/.screenlayout/multidisplay.sh'
 alias mirroreddisplay='source /home/shussain/.screenlayout/mirrored.sh'
-alias singledisplay='source $HOME/.screenlayout/singledisplay.sh'
+alias singledisplay='source $HOME/.screenlayout/single.sh'
 alias bigdisplay='source /$HOME/.screenlayout/bigdisplay.sh'
 
 alias mailtodo='mailx -s Todo habibilus@gmail.com < ~/Desktop/todo.txt'
