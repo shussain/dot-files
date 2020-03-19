@@ -12,7 +12,7 @@ sudo apt-get install cmus
 sudo apt-get install rdesktop
 sudo apt-get install ssh-askpass gksu
 sudo apt-get install markdown
-sudo apt install tumbler tumbler-plugins-extra ffmpegthumbnailer
+sudo apt-get install tumbler tumbler-plugins-extra ffmpegthumbnailer
 
 sudo snap install tldr
 
