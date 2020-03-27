@@ -4,7 +4,7 @@
 
 CURRENT_FOLDER=$PWD
 
-echo "----- Install useful GUI dependencies -----"
+echo "----- Install useful Window manager dependencies -----"
 sudo apt-get install i3 rofi
 sudo apt-get install xautolock
 sudo apt-get install blueman volumeicon-alsa
