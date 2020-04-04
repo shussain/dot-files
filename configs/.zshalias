@@ -70,6 +70,9 @@ alias weather='curl "http://wttr.in/ottawa?q"'
 alias weather_short='curl "wttr.in/Ottawa?format=\"%l:+%c+%t,+%w+%m\""'
 alias moon='curl wttr.in/Moon'
 
+alias covid='curl https://corona-stats.online/canada'
+alias covidall='curl https://corona-stats.online'
+
 alias pom='$HOME/code/python_code/pomodoro/pomodoro-notify.py &'
 alias pom_b='$HOME/code/python_code/pomodoro/pomodoro-notify.py -b &'
 
