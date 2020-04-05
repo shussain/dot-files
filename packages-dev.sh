@@ -15,6 +15,7 @@ sudo apt-get install gitk
 sudo apt-get install meld
 sudo apt-get install strace gdb
 sudo apt-get install tcpdump
+sudo apt-get install bpython bpython3
 
 sudo apt-get install pylint yamllint
 
