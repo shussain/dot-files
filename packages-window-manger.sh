@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Install my Windows manager (currently i3)
+# Install Windows manager (currently i3) packages
 
 CURRENT_FOLDER=$PWD
 
