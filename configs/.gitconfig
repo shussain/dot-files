@@ -13,6 +13,7 @@
 [alias]
 	ci  = commit -v
 	aiw = "!f(){ git diff -w --no-color | git apply --cached --ignore-whitespace; };f"
+	graph = log --oneline --graph
 
 [apply]
     whitespace = nowarn
