@@ -38,6 +38,7 @@ alias rtv_mc='rtv -s maliciouscompliance'
 alias sshvm='ssh samir -t tmux attach' # ssh into VM and attach to tmux
 alias sshkvmnat='VM_IP=`ip n | grep virbr0| sed  "s/dev.*//g"`; ssh -A $VM_IP'
 alias unmute='pactl set-sink-mute 0 0'
+alias wifissid='nmcli -f in-use,ssid,bssid,signal,bars  dev wifi'
 
 alias p='ps -axf'
 alias rd='rdesktop -a 15 -g 90% -z -x m -k en-us -r sound:off '
