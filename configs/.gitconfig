@@ -40,6 +40,11 @@
 	old  = red
 	new  = green
 
+[diff]
+    tool = meld
+[difftool]
+    prompt = false
+
 [grep]
 	linenumber = true
 
