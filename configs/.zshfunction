@@ -55,7 +55,7 @@ togglehrevpn () {
     toggleservice hre-infra openvpn-client@hre-infra
 }
 togglediovpn () {
-    toggleservice dio-infra openvpn-client@dio-infra
+    toggleservice wg-crypt-wg-dio wg-quick@wg-dio
 }
 togglemiredo () {
     toggleservice miredo miredo
