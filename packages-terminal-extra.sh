@@ -25,6 +25,9 @@ sudo apt-get install whois
 sudo apt-get install rtv
 sudo apt-get install w3m w3m-img
 
+# install urxvt
+sudo apt-get install rxvt-unicode
+
 sudo apt-get install apt-dater
 sudo apt-get install apt-dater-host
 
