@@ -18,6 +18,7 @@ alias unattended-upgrade='sudo unattended-upgrade -d'
 #alias xterm='xterm -font -*-fixed-medium-*-normal-*-14-130-*-*-*-*-*-* -geometry 110x35'
 
 # Common useful alias
+alias activities='f() { activities.py "$@"|sort -r}; f'
 alias battery='acpi -b'
 alias cloc='find . -name "*.c" -or -name "*.h" -or -name "*.y" -or -name "*.l" | xargs wc -l'
 alias compress='gzip -9'
