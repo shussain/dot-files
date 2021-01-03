@@ -23,6 +23,7 @@ sudo apt-get install net-tools
 sudo apt-get install vinagre
 sudo apt-get install whois
 sudo apt-get install rtv
+sudo apt-get install jq
 sudo apt-get install w3m w3m-img
 
 # install urxvt
