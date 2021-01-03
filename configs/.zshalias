@@ -36,6 +36,7 @@ alias pb='curl -F c=@- https://ptpb.pw/'
 alias ping_google='ping 8.8.8.8'
 alias reddit='firefox reddit.com/r/programming reddit.com/r/vim reddit.com/r/i3wm reddit.com/r/tmux reddit.com/r/linux reddit.com/r/ubuntu reddit.com/r/crunchyroll reddit.com/r/mma reddit.com/r/cricket reddit.com/r/ottawa reddit.com/r/maliciouscompliance reddit.com/r/edc reddit.com/r/Watchexchange'
 alias rtv_mc='rtv -s maliciouscompliance'
+alias ticker='watch -n 60 -c ticker.sh AAPL GOOGL MSFT AMZN FB VFV VCN CP.TO CNR TD RY'
 alias sshvm='ssh samir -t tmux attach' # ssh into VM and attach to tmux
 alias sshkvmnat='VM_IP=`ip n | grep virbr0| sed  "s/dev.*//g"`; ssh -A $VM_IP'
 alias unmute='pactl set-sink-mute 0 0'
