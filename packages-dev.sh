@@ -19,5 +19,8 @@ sudo apt-get install bpython bpython3
 
 sudo apt-get install pylint yamllint
 
+sudo apt-get install pod2pdf
+sudo apt-get install xmlto
+
 cd "$CURRENT_FOLDER"
 echo "----- End -----"
