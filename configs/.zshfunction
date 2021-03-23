@@ -65,3 +65,17 @@ toggle () {
     togglehrevpn
     togglediovpn
 }
+
+slippage () {
+    SLIPPAGE=`grep -rin slippage ~/timesheet/previous_worklog.csv |cut -d',' -f 5 | sed 's/$/+/' | tr -d '\n' | sed 's/+$//'`
+    echo $SLIPPAGE
+
+    TOTAL_SLIPPAGE=`echo $SLIPPAGE | bc`
+    echo 'TOTAL hours: ' $TOTAL_SLIPPAGE
+
+    SLIPPAGE_DAYS=`echo $TOTAL_SLIPPAGE/0.25 | bc`
+    echo 'TOTAL days: '  $SLIPPAGE_DAYS
+
+    echo
+    calm
+}
