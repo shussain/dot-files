@@ -70,7 +70,8 @@ alias cdcode='cd $HOME/project'
 
 alias cryptocurrency='curl rate.sx'
 alias cryptocurrencyc='curl cad.rate.sx'
-alias weather='curl "v2.wttr.in"'
+alias weather='curl "wttr.in"'
+alias weather_v2='curl "v2.wttr.in"'
 alias weather_short='curl "wttr.in/Ottawa?format=\"%l:+%c+%t,+%w+%m\""'
 alias moon='curl wttr.in/Moon'
 
