@@ -39,6 +39,8 @@ alias rtv_mc='rtv -s maliciouscompliance'
 alias ticker='cat ~/Desktop/stocks.txt | xargs watch -n 90 -c ticker.sh'
 alias sshvm='ssh samir -t tmux attach' # ssh into VM and attach to tmux
 alias sshkvmnat='VM_IP=`ip n | grep virbr0| sed  "s/dev.*//g"`; ssh -A $VM_IP'
+alias tasklist='/home/shussain/bin/newest_issue.py'
+alias ticketlist='/home/shussain/bin/newest_issue.py'
 alias unmute='pactl set-sink-mute 1 0'
 alias mute='pactl set-sink-mute 1 1'
 alias wifissid='nmcli -f in-use,ssid,bssid,signal,bars  dev wifi'
