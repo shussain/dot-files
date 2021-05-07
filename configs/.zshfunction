@@ -57,6 +57,9 @@ togglehrevpn () {
 togglediovpn () {
     toggleservice wg-crypt-wg-dio wg-quick@wg-dio
 }
+togglexelvpn () {
+    toggleservice wg-crypt-wg-xel wg-quick@wg-xel
+}
 togglemiredo () {
     toggleservice miredo miredo
 }
