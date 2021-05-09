@@ -51,14 +51,26 @@ toggleservice () {
     sudo service $2 $ACTION
 }
 
+togglewgservice () {
+	RESULT=`ps axf | grep $1 | wc -l`
+
+    if [ $RESULT -eq 1 ]; then
+        ACTION='stop'
+    else
+        ACTION='start'
+    fi
+
+    sudo service $2 $ACTION
+}
+
 togglehrevpn () {
     toggleservice hre-infra openvpn-client@hre-infra
 }
 togglediovpn () {
-    toggleservice wg-crypt-wg-dio wg-quick@wg-dio
+    togglewgservice '\[wg-crypt-wg-dio\]' wg-quick@wg-dio
 }
 togglexelvpn () {
-    toggleservice wg-crypt-wg-xel wg-quick@wg-xel
+    togglewgservice '\[wg-crypt-wg-xel\]' wg-quick@wg-xel
 }
 togglemiredo () {
     toggleservice miredo miredo
