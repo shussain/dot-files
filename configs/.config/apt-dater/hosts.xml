@@ -50,5 +50,8 @@
     <host name="localhost" comment="localhost!"/>
   </group>
 
+  <group name="sh">
+    <host name="samirhussain" comment="samirhussain"/>
+  </group>
 
 </hosts>
