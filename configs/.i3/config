@@ -61,6 +61,9 @@ bindsym $mod+c exec google-chrome
 # Launch gvim
 bindsym $mod+v exec gvim
 
+# Launch gnucash
+bindsym $mod+x exec gnucash
+
 # Launch Nautilus
 bindsym $mod+n exec nautilus
 
