@@ -21,7 +21,7 @@ floating_modifier $mod
 exec "./.screenlayout/multidisplay.sh"
 exec --no-startup-id "sleep 1; feh --bg-fill ~/background_image"
 exec --no-startup-id "sleep 1; conky -c ~/.conkyrc"
-exec --no-startup-id "sleep 1; xautolock -time 10 -locker 'i3lock'"
+exec --no-startup-id "sleep 1; xautolock -time 15 -locker 'i3lock'"
 exec --no-startup-id "sleep 1; urxvt -name __cmus -e cmus"
 #exec "sleep 5; gksudo service miredo start;"
 
