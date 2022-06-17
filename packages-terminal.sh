@@ -15,6 +15,7 @@ sudo apt-get install htop
 sudo apt-get install tree
 sudo apt-get install curl
 sudo apt-get install zip
+sudo apt-get install calc
 
 
 echo "----- Update vimrc submodules -----"
