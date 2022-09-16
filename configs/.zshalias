@@ -73,9 +73,9 @@ alias cdcode='cd $HOME/project'
 
 alias cryptocurrency='curl rate.sx'
 alias cryptocurrencyc='curl cad.rate.sx'
-alias weather='curl "wttr.in"'
-alias weather_v2='curl "v2.wttr.in"'
-alias weather_short='curl "wttr.in/Ottawa?format=\"%l:+%c+%t,+%w+%m\""'
+alias weather='curl "wttr.in/Ottawa?m"'
+alias weather_v2='curl "v2.wttr.in/Ottawa"'
+alias weather_short='curl "wttr.in/Ottawa?m&format=\"%l:+%c+%t+Humidity:%h,+%w+%p+%m+Sunrise:%S+Sunset:%s\""'
 alias moon='curl wttr.in/Moon'
 
 alias covid='curl https://corona-stats.online/canada'
