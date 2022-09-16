@@ -27,6 +27,7 @@ sudo apt-get install jq
 sudo apt-get install w3m w3m-img
 sudo apt-get install wikipedia2text
 sudo apt-get install neofetch
+sudo apt-get install inotify-tools
 
 # install urxvt
 sudo apt-get install rxvt-unicode
