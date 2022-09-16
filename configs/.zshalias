@@ -35,7 +35,7 @@ alias iptable='sudo iptables -L -n -v'
 alias pb='curl -F c=@- https://ptpb.pw/'
 alias ping_google='ping 8.8.8.8'
 alias ping_hre='ping 172.20.21.53'
-alias reddit='firefox https://www.reddit.com/r/programming https://www.reddit.com/r/vim https://www.reddit.com/r/i3wm https://www.reddit.com/r/tmux https://www.reddit.com/r/linux https://www.reddit.com/r/ubuntu https://www.reddit.com/r/crunchyroll https://www.reddit.com/r/mma https://www.reddit.com/r/cricket https://www.reddit.com/r/ottawa https://www.reddit.com/r/maliciouscompliance https://www.reddit.com/r/edc https://www.reddit.com/r/Watches'
+alias reddit='google-chrome https://www.reddit.com/r/programming https://www.reddit.com/r/vim https://www.reddit.com/r/linux https://www.reddit.com/r/ubuntu https://www.reddit.com/r/crunchyroll https://www.reddit.com/r/mma https://www.reddit.com/r/cricket https://www.reddit.com/r/ottawa https://www.reddit.com/r/maliciouscompliance https://www.reddit.com/r/edc https://www.reddit.com/r/Watches'
 alias rtv_mc='rtv -s maliciouscompliance'
 alias ticker='cat ~/Desktop/stocks.txt | xargs watch -n 90 -c ticker.sh'
 alias sshvm='ssh samir -t tmux attach' # ssh into VM and attach to tmux
