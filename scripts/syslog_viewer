@@ -4,14 +4,14 @@
 # Script uses Tmux.
 
 tmux new-session -d
-tmux split-window -d -t 0 -h
+#tmux split-window -d -t 0 -h
 
-COMMANDS='sudo tail -f /var/log/syslog /var/log/*.log /var/log/dmesg'
+COMMANDS='sudo tail -f /var/log/syslog /var/log/*.log /var/log/dmesg |grep -v drivers | grep -v "session opened for user root" | grep -v "session closed for user root"'
 
 SAMIRCOMMAND="ssh samir -t $COMMANDS"
 
 tmux send-keys -t 0 "$COMMANDS" enter
-tmux send-keys -t 1 "$SAMIRCOMMAND" enter
+#tmux send-keys -t 1 "$SAMIRCOMMAND" enter
 
 tmux select-pane -t 0
 
