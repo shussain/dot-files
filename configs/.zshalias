@@ -69,7 +69,7 @@ alias tickets='cat ~/Desktop/tickets.txt'
 alias finances='echo NOTHING IS HAPPENING'
 #'scp ~/Desktop/finances.txt.gpg samir:/home/shussain/; date'
 alias startup='i3-msg "workspace 1;exec gnome-terminal -x tmux_setup.sh";i3-msg "workspace 2;exec /snap/bin/rocketchat-desktop";i3-msg "workspace 3; exec /usr/bin/thunderbird";i3-msg "workspace 4; exec firefox"; i3-msg "workspace 5; exec /usr/bin/signal-desktop"; i3-msg "workspace 5; exec discord";'
-alias cdcode='cd $HOME/project'
+alias cdcode='cd $HOME/coding'
 
 alias cryptocurrency='curl rate.sx'
 alias cryptocurrencyc='curl cad.rate.sx'
