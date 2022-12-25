@@ -44,3 +44,5 @@ source ~/.rc_local
 
 # Use fzf (fuzzy finder written in Go)
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+export FZF_DEFAULT_OPTS='--height 100% --layout=reverse'
