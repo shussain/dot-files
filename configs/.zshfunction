@@ -11,6 +11,12 @@ grepc() {
     grep -rin --color=auto --exclude-dir={.bzr,.cvs,.git,.hg,.svn} --include=\*.{c,h,y,l} $1 .
 }
 
+# sshsu will auto execute sudo when SSHing to a VM
+sshsu() { ssh ${1} -t sudo su }
+
+# SSH as the user installer, useful for new VMs
+alias sshinstaller="ssh -u installer "
+
 # print available colors and their numbers
 # Taken from https://github.com/nicknisi/dotfiles/blob/master/zsh/functions.zsh
 function colours() {
