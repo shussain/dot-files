@@ -19,7 +19,9 @@ REPORTTIME=5
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git encode64 python rsync web-search gpg-agent vi-mode emoji colored-man-pages extract)
+plugins=(git encode64 python rsync web-search ssh-agent gpg-agent vi-mode emoji colored-man-pages extract)
+
+zstyle :omz:plugins:ssh-agent identities id_rsa infra xeler hre dio hre-2019 apt-dater hre_root
 
 source $ZSH/oh-my-zsh.sh
 
@@ -29,6 +31,7 @@ source $HOME/.zshfunction
 source $HOME/.zshreminder
 
 export PATH=$HOME/bin:/usr/local/bin:$PATH
+
 
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
