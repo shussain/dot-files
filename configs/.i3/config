@@ -58,8 +58,8 @@ bindsym $mod+f exec firefox
 # Launch Chrome
 bindsym $mod+c exec google-chrome
 
-# Launch gvim
-bindsym $mod+v exec gvim
+# Launch nvim
+bindsym $mod+v exec nvim-qt
 
 # Launch gnucash
 bindsym $mod+x exec gnucash
