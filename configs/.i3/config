@@ -40,7 +40,7 @@ exec --no-startup-id nm-applet
 # Remap CAPS LOCK to be super key and load ssh key, and network manager
 exec --no-startup-id "sleep 1; setxkbmap -option caps:super"
 
-#exec "eval `ssh-agent -s`; ssh-add ~/.ssh/id_rsa ~/.ssh/infra ~/.ssh/xeler ~/.ssh/hre ~/.ssh/dio ~/.ssh/hre-2019 ~/.ssh/apt-dater ~/.ssh/hre_root"
+#exec "eval `ssh-agent -s`; ssh-add ~/.ssh/id_rsa ~/.ssh/infra ~/.ssh/xeler ~/.ssh/hre ~/.ssh/dio ~/.ssh/hre-2019 ~/.ssh/apt-dater ~/.ssh/hre_root ~/.ssh/pvpn"
 
 # Specify workspace (most useful for dual screen)
 workspace 1 output DP-2-1

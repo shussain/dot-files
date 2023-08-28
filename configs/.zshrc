@@ -21,7 +21,7 @@ REPORTTIME=5
 # Example format: plugins=(rails git textmate ruby lighthouse)
 plugins=(git encode64 python rsync web-search ssh-agent gpg-agent vi-mode emoji colored-man-pages extract)
 
-zstyle :omz:plugins:ssh-agent identities id_rsa infra xeler hre dio hre-2019 apt-dater hre_root
+zstyle :omz:plugins:ssh-agent identities id_rsa infra xeler hre dio hre-2019 apt-dater hre_root pvpn
 
 source $ZSH/oh-my-zsh.sh
 
