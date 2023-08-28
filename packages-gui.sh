@@ -15,7 +15,5 @@ sudo apt-get install markdown
 sudo apt-get install tumbler tumbler-plugins-extra ffmpegthumbnailer
 sudo apt-get install calibre
 
-sudo snap install tldr
-
 cd "$CURRENT_FOLDER"
 echo "----- End -----"
