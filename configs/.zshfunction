@@ -78,6 +78,9 @@ togglediovpn () {
 togglexelvpn () {
     togglewgservice '\[wg-crypt-wg-xel\]' wg-quick@wg-xel
 }
+togglepvpnvpn () {
+    togglewgservice '\[wg-crypt-wg-pvp\]' wg-quick@wg-pvpn
+}
 togglemiredo () {
     toggleservice miredo miredo
 }
@@ -85,6 +88,7 @@ togglemiredo () {
 toggle () {
     togglehrevpn
     togglediovpn
+    togglepvpnvpn
 }
 
 slippage () {
