@@ -39,7 +39,7 @@ alias reddit='google-chrome https://www.reddit.com/r/programming https://www.red
 alias rtv_mc='rtv -s maliciouscompliance'
 #alias ticker='cat ~/Desktop/stocks.txt | xargs watch -n 90 -c ticker.sh'
 alias ticker='ticker --config $HOME/ticker.yaml'
-alias ticker_p='ticker print --config $HOME/ticker.yaml --format json'
+alias ticker_p='ticker --config $HOME/ticker.yaml --format json print | json_pp | grep -v cost | egrep -v "weight|cost|quantity|value"'
 alias sshvm='ssh samir -t tmux attach' # ssh into VM and attach to tmux
 alias sshkvmnat='VM_IP=`ip n | grep virbr0| sed  "s/dev.*//g"`; ssh -A $VM_IP'
 alias tasklist='/home/shussain/bin/newest_issue.py'
@@ -78,7 +78,7 @@ alias cryptocurrencyc='curl cad.rate.sx'
 alias weather='curl "wttr.in/Ottawa?m"'
 alias weather_v2='curl "v2.wttr.in/Ottawa"'
 alias weather_short='curl "wttr.in/Ottawa?m&format=\"%l:+%c+%t+Humidity:%h,+%w+%p+%m+Sunrise:%S+Sunset:%s\""'
-alias moon='curl wttr.in/Moon'
+alias moon='pyphoon | lolcat'
 
 alias covid='curl https://corona-stats.online/canada'
 alias covidall='curl https://corona-stats.online'
