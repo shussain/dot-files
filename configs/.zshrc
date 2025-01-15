@@ -19,7 +19,15 @@ REPORTTIME=5
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git encode64 python rsync web-search ssh-agent gpg-agent vi-mode emoji colored-man-pages extract)
+plugins=(
+    git
+    python
+    rsync
+    encode64  extract
+    ssh-agent gpg-agent
+    vi-mode
+    emoji colored-man-pages
+)
 
 zstyle :omz:plugins:ssh-agent identities id_rsa infra xeler hre dio hre-2019 apt-dater hre_root pvpn portage spvpn
 
