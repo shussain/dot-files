@@ -45,9 +45,10 @@ exec --no-startup-id "sleep 1; setxkbmap -option caps:super"
 # Specify workspace (most useful for dual screen)
 workspace 1 output DP-2-1
 workspace 2 output eDP-1
-workspace 3 output eDP-1
-workspace 4 output DP-2-1
+workspace 3 output DP-2-1
+workspace 4 output DP-2-2
 workspace 5 output eDP-1
+workspace 6 output DP-2-2
 
 # Launch a terminal
 bindsym $mod+Return exec gnome-terminal
@@ -176,8 +177,7 @@ bindsym $mod+Shift+8 move container to workspace 8, workspace 8
 bindsym $mod+Shift+9 move container to workspace 9, workspace 9
 bindsym $mod+Shift+0 move container to workspace 10, workspace 10
 
-#bindsym $mod+F8 exec "i3-msg 'workspace 1;exec gnome-terminal -x tmux_setup.sh';i3-msg 'workspace 2;exec /usr/bin/pidgin';i3-msg 'workspace 3; exec /usr/bin/thunderbird';i3-msg 'workspace 4; exec firefox'; i3-msg 'workspace 5; exec gnome-terminal -x ssh samir -t tmux attach'; i3-msg 'workspace 5; exec discord';"
-bindsym $mod+F8 exec "i3-msg 'workspace 1;exec gnome-terminal -x tmux_setup.sh';i3-msg 'workspace 2;exec /snap/bin/rocketchat-desktop';i3-msg 'workspace 3; exec /usr/bin/thunderbird';i3-msg 'workspace 4; exec firefox'; i3-msg 'workspace 5; exec /usr/bin/signal-desktop';"
+bindsym $mod+F8 exec "i3-msg 'workspace 3;exec gnome-terminal -x tmux_setup.sh';i3-msg 'workspace 1;exec /snap/bin/rocketchat-desktop';i3-msg 'workspace 1; exec /usr/bin/thunderbird';i3-msg 'workspace 4; exec firefox'; i3-msg 'workspace 5; exec /usr/bin/signal-desktop';"
 
 # Reload the configuration file
 bindsym $mod+Shift+c reload
