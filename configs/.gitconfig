@@ -63,6 +63,6 @@
 
 [core]
 	editor = vim
-    pager = less
+    pager = less -iF
 	excludesfile = ~/.gitignore
 	mergeoptions = --no-edit
