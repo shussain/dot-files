@@ -48,7 +48,6 @@ workspace 2 output eDP-1
 workspace 3 output DP-2-1
 workspace 4 output DP-2-2
 workspace 5 output eDP-1
-workspace 6 output DP-2-2
 
 # Launch a terminal
 bindsym $mod+Return exec gnome-terminal
