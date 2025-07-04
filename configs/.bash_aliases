@@ -21,7 +21,7 @@ alias getwebheader='curl -I'
 alias hashsum='sha256sum'
 alias iptable='sudo iptables -L -n -v'
 alias ping_google='ping 8.8.8.8'
-alias upgrade='sudo apt-get update && sudo apt-get upgrade'
+alias upgrade='sudo apt-get update; NEEDRESTART_UI=NeedRestart::UI::Debconf sudo apt upgrade'
 
 # Git aliases
 alias gst='git status'
