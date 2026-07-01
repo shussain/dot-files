@@ -44,6 +44,7 @@ alias ticker_p='ticker --config $HOME/ticker.yaml --format json print | json_pp 
 alias sshvm='ssh samir -t tmux attach' # ssh into VM and attach to tmux
 alias sshkvmnat='VM_IP=`ip n | grep virbr0| sed  "s/dev.*//g"`; ssh -A $VM_IP'
 alias tasklist='/home/shussain/bin/newest_issue.py'
+alias tetris='/usr/games/bin/termtris'
 alias ticketlist='/home/shussain/bin/newest_issue.py'
 alias unlock='sudo killall xautolock'
 alias unmute='pactl set-sink-mute 1 0'
@@ -72,7 +73,7 @@ alias tickets='cat ~/Desktop/tickets.txt'
 
 alias finances='echo NOTHING IS HAPPENING'
 #'scp ~/Desktop/finances.txt.gpg samir:/home/shussain/; date'
-alias startup='i3-msg "workspace 1;exec gnome-terminal -x tmux_setup.sh";i3-msg "workspace 2;exec /snap/bin/rocketchat-desktop";i3-msg "workspace 3; exec /usr/bin/thunderbird";i3-msg "workspace 4; exec firefox"; i3-msg "workspace 5; exec /usr/bin/signal-desktop";'
+alias startup='i3-msg "workspace 1;exec gnome-terminal -x tmux_setup.sh";i3-msg "workspace 3; exec /usr/bin/thunderbird";i3-msg "workspace 4; exec firefox"; i3-msg "workspace 5; exec /usr/bin/signal-desktop";'
 alias cdcode='cd $HOME/coding'
 
 alias cryptocurrency='curl rate.sx'
